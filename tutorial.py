@@ -1,1 +1,0 @@
-print("kahuan_ng")
