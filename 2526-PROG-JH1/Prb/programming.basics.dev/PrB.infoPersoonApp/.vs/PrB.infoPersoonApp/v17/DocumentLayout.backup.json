@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\programming.basics.dev\\PrB.infoPersoonApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3250E2FC-3317-4689-A0C8-8D4E785D1411}|PrB.infoPersoonApp\\PrB.infoPersoonApp.csproj|c:\\programming.basics.dev\\prb.infopersoonapp\\prb.infopersoonapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3250E2FC-3317-4689-A0C8-8D4E785D1411}|PrB.infoPersoonApp\\PrB.infoPersoonApp.csproj|solutionrelative:prb.infopersoonapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\programming.basics.dev\\PrB.infoPersoonApp\\PrB.infoPersoonApp\\Program.cs",
+              "RelativeDocumentMoniker": "PrB.infoPersoonApp\\Program.cs",
+              "ToolTip": "C:\\programming.basics.dev\\PrB.infoPersoonApp\\PrB.infoPersoonApp\\Program.cs",
+              "RelativeToolTip": "PrB.infoPersoonApp\\Program.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAgwAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T13:01:17.693Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

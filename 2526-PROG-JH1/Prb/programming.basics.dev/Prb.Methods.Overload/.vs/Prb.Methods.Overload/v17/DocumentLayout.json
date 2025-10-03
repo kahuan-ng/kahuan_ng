@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\2526-JH1\\Prb\\programming.basics.dev\\Prb.Methods.Overload\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DAD4D-AB8E-42DA-B631-4057249A12D0}|Prb.Methods.Overload.Cons\\Prb.Methods.Overload.Cons.csproj|c:\\2526-jh1\\prb\\programming.basics.dev\\prb.methods.overload\\prb.methods.overload.cons\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DAD4D-AB8E-42DA-B631-4057249A12D0}|Prb.Methods.Overload.Cons\\Prb.Methods.Overload.Cons.csproj|solutionrelative:prb.methods.overload.cons\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\2526-JH1\\Prb\\programming.basics.dev\\Prb.Methods.Overload\\Prb.Methods.Overload.Cons\\Program.cs",
+              "RelativeDocumentMoniker": "Prb.Methods.Overload.Cons\\Program.cs",
+              "ToolTip": "C:\\2526-JH1\\Prb\\programming.basics.dev\\Prb.Methods.Overload\\Prb.Methods.Overload.Cons\\Program.cs",
+              "RelativeToolTip": "Prb.Methods.Overload.Cons\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T13:37:02.493Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

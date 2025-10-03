@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Prb.Variabelen.Les2.Cons/1.0.0": {
+        "runtime": {
+          "Prb.Variabelen.Les2.Cons.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Prb.Variabelen.Les2.Cons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

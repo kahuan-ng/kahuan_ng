@@ -1,0 +1,4 @@
+C:\2526-JH1\Prb\programming.basics.dev\Prb.Methods.Overload\Prb.Methods.Overload.Cons\obj\Debug\net8.0\Prb.Methods.Overload.Cons.GeneratedMSBuildEditorConfig.editorconfig
+C:\2526-JH1\Prb\programming.basics.dev\Prb.Methods.Overload\Prb.Methods.Overload.Cons\obj\Debug\net8.0\Prb.Methods.Overload.Cons.AssemblyInfoInputs.cache
+C:\2526-JH1\Prb\programming.basics.dev\Prb.Methods.Overload\Prb.Methods.Overload.Cons\obj\Debug\net8.0\Prb.Methods.Overload.Cons.AssemblyInfo.cs
+C:\2526-JH1\Prb\programming.basics.dev\Prb.Methods.Overload\Prb.Methods.Overload.Cons\obj\Debug\net8.0\Prb.Methods.Overload.Cons.csproj.CoreCompileInputs.cache

@@ -1,0 +1,14 @@
+C:\programming.basics.dev\PrB.infoPersoonApp\PrB.infoPersoonApp\bin\Debug\net8.0\PrB.infoPersoonApp.exe
+C:\programming.basics.dev\PrB.infoPersoonApp\PrB.infoPersoonApp\bin\Debug\net8.0\PrB.infoPersoonApp.deps.json
+C:\programming.basics.dev\PrB.infoPersoonApp\PrB.infoPersoonApp\bin\Debug\net8.0\PrB.infoPersoonApp.runtimeconfig.json
+C:\programming.basics.dev\PrB.infoPersoonApp\PrB.infoPersoonApp\bin\Debug\net8.0\PrB.infoPersoonApp.dll
+C:\programming.basics.dev\PrB.infoPersoonApp\PrB.infoPersoonApp\bin\Debug\net8.0\PrB.infoPersoonApp.pdb
+C:\programming.basics.dev\PrB.infoPersoonApp\PrB.infoPersoonApp\obj\Debug\net8.0\PrB.infoPersoonApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\programming.basics.dev\PrB.infoPersoonApp\PrB.infoPersoonApp\obj\Debug\net8.0\PrB.infoPersoonApp.AssemblyInfoInputs.cache
+C:\programming.basics.dev\PrB.infoPersoonApp\PrB.infoPersoonApp\obj\Debug\net8.0\PrB.infoPersoonApp.AssemblyInfo.cs
+C:\programming.basics.dev\PrB.infoPersoonApp\PrB.infoPersoonApp\obj\Debug\net8.0\PrB.infoPersoonApp.csproj.CoreCompileInputs.cache
+C:\programming.basics.dev\PrB.infoPersoonApp\PrB.infoPersoonApp\obj\Debug\net8.0\PrB.infoPersoonApp.dll
+C:\programming.basics.dev\PrB.infoPersoonApp\PrB.infoPersoonApp\obj\Debug\net8.0\refint\PrB.infoPersoonApp.dll
+C:\programming.basics.dev\PrB.infoPersoonApp\PrB.infoPersoonApp\obj\Debug\net8.0\PrB.infoPersoonApp.pdb
+C:\programming.basics.dev\PrB.infoPersoonApp\PrB.infoPersoonApp\obj\Debug\net8.0\PrB.infoPersoonApp.genruntimeconfig.cache
+C:\programming.basics.dev\PrB.infoPersoonApp\PrB.infoPersoonApp\obj\Debug\net8.0\ref\PrB.infoPersoonApp.dll

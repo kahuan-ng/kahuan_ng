@@ -1,0 +1,20 @@
+﻿<Window x:Class="Prb.PreferredCourse.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Voorkeursmodule" Height="395.698" Width="334.413" Loaded="Window_Loaded">
+    <Grid>
+        <Label x:Name="lblWelcome" Content="Welkom" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="311"/>
+        <Label Content="Naam" HorizontalAlignment="Left" Margin="30,41,0,0" VerticalAlignment="Top" Width="67"/>
+        <Label Content="Voorkeur" HorizontalAlignment="Left" Margin="30,72,0,0" VerticalAlignment="Top" Width="67"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="114,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtName_TextChanged" />
+        <ListBox x:Name="lstPreference" HorizontalAlignment="Left" Height="100" Margin="114,73,0,0" VerticalAlignment="Top" Width="188" SelectionChanged="lstPreference_SelectionChanged">
+            
+        </ListBox>
+        <TextBlock x:Name="tbkFeedBack" HorizontalAlignment="Left" Margin="10,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="123" Width="292" Background="#FFEDEA89"/>
+        <Button x:Name="btnOK" Content="OK" HorizontalAlignment="Left" Margin="245,45,0,0" VerticalAlignment="Top" Width="57" Height="23" Click="btnOK_Click"/>
+
+    </Grid>
+</Window>

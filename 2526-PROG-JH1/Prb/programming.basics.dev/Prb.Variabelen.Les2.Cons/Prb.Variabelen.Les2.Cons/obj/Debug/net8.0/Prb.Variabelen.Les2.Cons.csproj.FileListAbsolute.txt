@@ -1,0 +1,14 @@
+C:\programming.basics.dev\Prb.Variabelen.Les2.Cons\Prb.Variabelen.Les2.Cons\bin\Debug\net8.0\Prb.Variabelen.Les2.Cons.exe
+C:\programming.basics.dev\Prb.Variabelen.Les2.Cons\Prb.Variabelen.Les2.Cons\bin\Debug\net8.0\Prb.Variabelen.Les2.Cons.deps.json
+C:\programming.basics.dev\Prb.Variabelen.Les2.Cons\Prb.Variabelen.Les2.Cons\bin\Debug\net8.0\Prb.Variabelen.Les2.Cons.runtimeconfig.json
+C:\programming.basics.dev\Prb.Variabelen.Les2.Cons\Prb.Variabelen.Les2.Cons\bin\Debug\net8.0\Prb.Variabelen.Les2.Cons.dll
+C:\programming.basics.dev\Prb.Variabelen.Les2.Cons\Prb.Variabelen.Les2.Cons\bin\Debug\net8.0\Prb.Variabelen.Les2.Cons.pdb
+C:\programming.basics.dev\Prb.Variabelen.Les2.Cons\Prb.Variabelen.Les2.Cons\obj\Debug\net8.0\Prb.Variabelen.Les2.Cons.GeneratedMSBuildEditorConfig.editorconfig
+C:\programming.basics.dev\Prb.Variabelen.Les2.Cons\Prb.Variabelen.Les2.Cons\obj\Debug\net8.0\Prb.Variabelen.Les2.Cons.AssemblyInfoInputs.cache
+C:\programming.basics.dev\Prb.Variabelen.Les2.Cons\Prb.Variabelen.Les2.Cons\obj\Debug\net8.0\Prb.Variabelen.Les2.Cons.AssemblyInfo.cs
+C:\programming.basics.dev\Prb.Variabelen.Les2.Cons\Prb.Variabelen.Les2.Cons\obj\Debug\net8.0\Prb.Variabelen.Les2.Cons.csproj.CoreCompileInputs.cache
+C:\programming.basics.dev\Prb.Variabelen.Les2.Cons\Prb.Variabelen.Les2.Cons\obj\Debug\net8.0\Prb.Variabelen.Les2.Cons.dll
+C:\programming.basics.dev\Prb.Variabelen.Les2.Cons\Prb.Variabelen.Les2.Cons\obj\Debug\net8.0\refint\Prb.Variabelen.Les2.Cons.dll
+C:\programming.basics.dev\Prb.Variabelen.Les2.Cons\Prb.Variabelen.Les2.Cons\obj\Debug\net8.0\Prb.Variabelen.Les2.Cons.pdb
+C:\programming.basics.dev\Prb.Variabelen.Les2.Cons\Prb.Variabelen.Les2.Cons\obj\Debug\net8.0\Prb.Variabelen.Les2.Cons.genruntimeconfig.cache
+C:\programming.basics.dev\Prb.Variabelen.Les2.Cons\Prb.Variabelen.Les2.Cons\obj\Debug\net8.0\ref\Prb.Variabelen.Les2.Cons.dll
