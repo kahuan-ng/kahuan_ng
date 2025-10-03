@@ -1,0 +1,19 @@
+#verhaal_button {
+    background-color: #4CAF50;
+    padding: 14px 18px;
+}
+
+.verhaal_container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.clickable-row:hover {
+    background-color:  #e9e7e7 !important;
+    cursor: pointer;
+}
+
+.thead {
+    background-color: #2e4a4e;
+    color: white;
+}

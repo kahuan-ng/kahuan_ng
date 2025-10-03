@@ -1,0 +1,21 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Highlight row on hover */
+.clickable-row:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.link { 
+    text-decoration: none; 
+    color: inherit; 
+}

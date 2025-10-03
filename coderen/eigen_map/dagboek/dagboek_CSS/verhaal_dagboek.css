@@ -1,0 +1,19 @@
+#verhaal_bar {
+    background-color: #008080;
+    color: #ffffff;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.verhaal_card {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}

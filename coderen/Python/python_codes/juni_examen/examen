@@ -1,0 +1,24 @@
+import sqlite3
+import requests
+
+url = "https://flagcdn.com/en/codes.json"
+response = requests.get(url)
+landen_data = response.json()
+conn = sqlite3.connect("park.db")
+c = conn.cursor()
+
+c.execute("DROP TABLE IF EXISTS land") 
+c.execute("""
+    CREATE TABLE land (
+        code TEXT PRIMARY KEY,
+        naam TEXT,
+        vlag_url TEXT
+    )
+""")
+
+for code, naam in landen_data.items():
+    vlag_url = f"https://flagcdn.com/256x192/{code}.png"
+    c.execute("INSERT INTO land (code, naam, vlag_url) VALUES (?, ?, ?)", (code, naam, vlag_url))
+
+conn.commit()
+conn.close()

@@ -1,0 +1,142 @@
+/* header.css */
+
+/* Algemene header stijl */
+header {
+    background-color: #2E4A4F;
+    color: #E7FFF9;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 10px 20px;
+}
+
+/* Logo container */
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0; /* voorkom dat de container te klein wordt */
+}
+
+/* Logo afbeelding */
+.logo-container img.logo-img {
+    max-height: 50px; /* maximale hoogte */
+    width: auto;
+    height: auto;
+    object-fit: contain; /* voorkom vervorming */
+    display: block;
+}
+
+/* Navigatiebalk */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Navigatieknoppen */
+nav a {
+    background-color: #3F51B5; /* w3-indigo alternatief */
+    color: white;
+    border-radius: 24px; /* ronde hoeken */
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #303F9F; /* iets donkerder */
+    outline: none;
+}
+
+/* Login/Logout knoppen container */
+.login-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-left: auto;
+}
+
+/* Login/Logout knoppen stijl */
+.login-buttons a {
+    border-radius: 24px;
+    padding: 8px 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #2E4A4F;
+    transition: background-color 0.3s ease;
+}
+
+/* Registratie knop */
+.login-buttons a.registratie {
+    background-color: #00FF88;
+}
+
+.login-buttons a.registratie:hover,
+.login-buttons a.registratie:focus {
+    background-color: #00cc6b;
+}
+
+/* Login knop */
+.login-buttons a.login {
+    background-color: #50E4E4;
+}
+
+.login-buttons a.login:hover,
+.login-buttons a.login:focus {
+    background-color: #38b9b9;
+}
+
+/* Gebruikersnaam knop */
+.login-buttons a.gebruiker {
+    background-color: #00FF88;
+    color: #2E4A4F;
+}
+
+.login-buttons a.gebruiker:hover,
+.login-buttons a.gebruiker:focus {
+    background-color: #00cc6b;
+}
+
+/* Logout knop */
+.login-buttons a.logout {
+    background-color: #50E4E4;
+    color: #2E4A4F;
+}
+
+.login-buttons a.logout:hover,
+.login-buttons a.logout:focus {
+    background-color: #38b9b9;
+}
+
+/* Responsive aanpassingen */
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: center;
+        gap: 12px;
+        padding: 15px 10px;
+    }
+    
+    nav {
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        order: 3;
+    }
+    
+    .login-buttons {
+        justify-content: center;
+        width: 100%;
+        order: 4;
+        margin-left: 0;
+    }
+
+    .logo-container {
+        order: 1;
+        justify-content: center;
+        width: 100%;
+    }
+}

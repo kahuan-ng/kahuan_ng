@@ -1,0 +1,44 @@
+/* Card Container */
+.card1 {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    align-items: stretch;
+}
+
+/* Text Section */
+.card_flex1 {
+    flex: 2;
+}
+
+/* Image Section */
+.card_flex2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;  /* Horizontally center */
+    align-items: center;      /* Vertically center */
+}
+
+/* Image Styling */
+.card_flex2_image1 {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.tekst-container {
+    max-width: 80%; /* Of een percentage naar wens */
+    margin: 0 auto; /* Zorgt ervoor dat het in het midden van de pagina wordt uitgelijnd */
+}
+
+.extra.deel {
+  display: flex;
+  flex-direction: column;
+}
+
+.centered-container {
+    max-width: 900px; /* of 1000px, afhankelijk van je voorkeur */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px; /* optioneel, voor binnenruimte */
+}

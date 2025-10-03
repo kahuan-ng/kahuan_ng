@@ -1,0 +1,69 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px;
+}
+
+.container_square {
+    margin: 12px;
+    padding: 12px;
+    border-color: black;
+    border: solid;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+
+/* CSS-flex-container */    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a.btn_square {
+    position: relative;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: red;    /* standaard rood */
+    overflow: hidden;
+    cursor: pointer;
+    transition: color 0.5s ease-in-out;
+}
+
+a.btn_square::before {
+    content: "dsfsdf";
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #04AA6D; /* groen */
+    transform: scaleX(0);       /* start verborgen */
+    transform-origin: left;     /* animatie van links naar rechts */
+    transition: transform 0.5s ease-in-out;
+    z-index: 0;
+}
+
+a.btn_square span {
+    position: relative;
+    z-index: 1;                  /* tekst boven overlay */
+}
+
+a.btn_square:hover::before {
+    transform: scaleX(1);       /* volledig zichtbaar, links → rechts */
+}
+
+a.btn_square:hover span {
+    color: black;               /* tekstkleur verandert mee */
+}
+
+.header {
+    background-color: teal;
+    padding: 12px;
+}
+

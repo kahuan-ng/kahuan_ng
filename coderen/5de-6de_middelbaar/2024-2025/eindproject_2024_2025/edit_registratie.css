@@ -1,0 +1,42 @@
+/* Responsive aanpassingen: alleen op kleinere schermen */
+@media screen and (max-width: 768px) {
+    /* Formulier velden en knoppen volle breedte */
+    form#updateForm input.w3-input,
+    form#updateForm input.w3-button,
+    form[action="delete_registratie.php"] input.w3-button,
+    .w3-row.w3-padding > div {
+        width: 100% !important;
+        box-sizing: border-box;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /* Zorg dat halve kolommen onder elkaar komen */
+    .w3-row-padding > div.w3-half {
+        width: 100% !important;
+    }
+
+    /* Knoppen onder elkaar met ruimte er tussen */
+    .w3-row.w3-padding {
+        flex-direction: column !important;
+        gap: 12px;
+    }
+
+    /* Header tekst iets kleiner op tablet en mobiel */
+    header.w3-bar h1 {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Iets kleinere padding en font in input velden */
+    form#updateForm input.w3-input {
+        font-size: 0.9rem !important;
+        padding: 8px !important;
+    }
+
+    /* Logo iets kleiner */
+    header.w3-bar a img {
+        height: 40px !important;
+    }
+}

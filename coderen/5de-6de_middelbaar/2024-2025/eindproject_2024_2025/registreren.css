@@ -1,0 +1,100 @@
+/* Algemene styling voor w3-card-4 */
+.w3-card-4 {
+    margin: 40px auto;        /* horizontaal centreren */
+    max-width: 600px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+/* Header styling voor vaste hoogte en uitlijnen */
+header.w3-bar {
+    min-height: 64px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    background-color: #2e4a4e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header.w3-bar h1 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 64px;
+}
+
+header.w3-bar a {
+    position: absolute;
+    left: 16px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header.w3-bar img {
+    height: 48px;
+    margin-bottom: 0;
+}
+
+/* Op kleinere schermen: responsive aanpassingen */
+@media screen and (max-width: 992px) {
+    /* Zorg dat alle halve kolommen full width worden */
+    .w3-half {
+        width: 100% !important;
+        margin-bottom: 16px !important;
+    }
+
+    /* Ook alle kolommen binnen w3-row-padding */
+    .w3-row-padding .w3-half,
+    .w3-row-padding .w3-full,
+    .w3-padding.w3-half {
+        width: 100% !important;
+        display: block !important;
+        padding: 0 8px !important;
+        margin-bottom: 16px !important;
+        box-sizing: border-box;
+    }
+
+    /* Zorg dat de kaart niet absolute gepositioneerd is */
+    .w3-display-middle {
+        position: static !important;
+        transform: none !important;
+        margin: 32px auto !important;
+    }
+
+    /* Formulierkaart smaller en gecentreerd */
+    .w3-card-4 {
+        max-width: 600px;       /* Houd max breedte */
+        width: 90% !important;  /* Past aan scherm */
+        margin: 32px auto !important;
+    }
+
+    /* Buttons full width en onder elkaar */
+    .w3-button {
+        width: 100% !important;
+        margin-top: 8px !important;
+    }
+}
+
+/* Footer onderaan de pagina houden */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}

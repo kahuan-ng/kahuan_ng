@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Zorg ervoor dat de container zich uitstrekt over de hele hoogte van de pagina */
+.w3-container {
+  height: calc(100% - 80px); /* Verhoog de hoogte om de footer niet te overlappen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Cardstijl behouden */
+.w3-card {
+  width: 100%;
+  max-width: 600px; /* Beperk de breedte van de card */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slide { display: none; }
+.active { display: block; }
+
+/* Zorg ervoor dat de knoppen onderaan goed zichtbaar blijven */
+.w3-margin-top {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Flexbox om knoppen netjes uit te lijnen */
+.w3-margin-top button {
+  margin: 5px;
+}
+
+#resultaat {
+  padding: 15px;
+  background-color: #e6f7ff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Footer-stijl */
+footer {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  text-align: center;
+  margin-top: auto; /* Zorg ervoor dat de footer onderaan komt */
+}

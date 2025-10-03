@@ -1,0 +1,58 @@
+body {
+    margin: 50px;
+}
+
+:root {
+    --grey: rgb(182, 179, 179);
+    --red: rgb(173, 62, 82); 
+    font-family: Verdana;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: var(--grey);
+    font-size: small;
+}
+
+h3 {
+    text-align: left;
+    background: var(--grey); 
+    padding: 10px;
+    font-size: x-large;
+}
+
+h4 {
+    color: var(--red);
+    font-size: larger;
+}
+
+p {
+    line-height: 2.0;
+}
+
+table {
+    width: 100%;
+}
+
+td, th th, td {
+    border: 1px solid rgb(158, 153, 153);
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: var(--grey);
+}
+
+.bold {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+}

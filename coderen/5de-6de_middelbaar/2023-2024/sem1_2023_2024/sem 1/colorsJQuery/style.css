@@ -1,0 +1,14 @@
+table {
+    padding-left: 14%;
+}
+td {
+    height: 100px;
+    width: 100px;
+}
+
+.button {
+    padding: 10px;
+    background-color: red;
+    margin-left: 43.4%;
+    margin-bottom: 10px;
+}
