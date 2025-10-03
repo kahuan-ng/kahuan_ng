@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 12px;
+    color: blue;
+}
+
+img {
+    width: 100%;
+}
+
+.readmore {
+    display: none;
+}
+
+.benadruk {
+    color: orange;
+}

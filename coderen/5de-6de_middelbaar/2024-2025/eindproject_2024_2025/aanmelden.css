@@ -1,0 +1,55 @@
+/* Voeg onderaan toe in je huidige CSS */
+
+/* Tablet (breedte ≤ 768px) */
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 20px;
+    }
+    .logo-img {
+        height: 40px;
+    }
+    .form-card {
+        max-width: 90%;  /* kleinere breedte zodat het past */
+        margin: 0 5%;    /* beetje ruimte aan de zijkant */
+    }
+    .btn-login {
+        width: 100%;     /* knop vult de breedte */
+        padding: 14px;   /* iets meer padding voor touch */
+    }
+}
+
+/* Mobiel (breedte ≤ 480px) */
+@media (max-width: 480px) {
+    .header-bar {
+        padding: 12px 0;
+    }
+    .page-title {
+        font-size: 18px;
+    }
+    .logo-img {
+        height: 35px;
+    }
+    .btn-login {
+        padding: 16px;
+    }
+}
+/* Footer onderaan de pagina houden */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}

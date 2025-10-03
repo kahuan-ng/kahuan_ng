@@ -1,0 +1,2412 @@
+[
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Tanzania",
+        "stad": "Serengeti",
+        "latitude": -1.9622631,
+        "longitude": 34.7690573,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "South Africa",
+        "stad": "Nelspruit",
+        "latitude": -25.4729094,
+        "longitude": 30.9772719,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Namibia",
+        "stad": "Enango",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Kenya",
+        "stad": "Narok",
+        "latitude": -1.2779366,
+        "longitude": 35.4774228,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Botswana",
+        "stad": "Kasane",
+        "latitude": -17.799239,
+        "longitude": 25.156546,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "South Africa",
+        "stad": "Port Elizabeth",
+        "latitude": -33.9618359,
+        "longitude": 25.6186512,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "DR Congo",
+        "stad": "Goma",
+        "latitude": -1.6665685,
+        "longitude": 29.225652,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Uganda",
+        "stad": "Kabale",
+        "latitude": -1.3359667,
+        "longitude": 30.036886,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Tanzania",
+        "stad": "Ngorongoro",
+        "latitude": -3.0735158,
+        "longitude": 35.4205768,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Zimbabwe",
+        "stad": "Kariba",
+        "latitude": -16.527274,
+        "longitude": 28.7755479,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Egypt",
+        "stad": "Cairo",
+        "latitude": 30.0443879,
+        "longitude": 31.2357257,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Kenya",
+        "stad": "Nairobi",
+        "latitude": -1.3026148,
+        "longitude": 36.828842,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "South Africa",
+        "stad": "Johannesburg",
+        "latitude": -26.205,
+        "longitude": 28.049722,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "South Africa",
+        "stad": "Pretoria",
+        "latitude": -25.7459277,
+        "longitude": 28.1879101,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "South Africa",
+        "stad": "Durban",
+        "latitude": -29.861825,
+        "longitude": 31.009909,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Morocco",
+        "stad": "Rabat",
+        "latitude": 34.0218454,
+        "longitude": -6.8408929,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Algeria",
+        "stad": "Algiers",
+        "latitude": 36.7729333,
+        "longitude": 3.0588445,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Tunisia",
+        "stad": "Tunis",
+        "latitude": 33.8439408,
+        "longitude": 9.400138,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Senegal",
+        "stad": "Dakar",
+        "latitude": 14.693425,
+        "longitude": -17.447938,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Ghana",
+        "stad": "Accra",
+        "latitude": 5.5571096,
+        "longitude": -0.2012376,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Nigeria",
+        "stad": "Lagos",
+        "latitude": 6.4550575,
+        "longitude": 3.3941795,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Uganda",
+        "stad": "Kampala",
+        "latitude": 0.3177137,
+        "longitude": 32.5813539,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Ethiopia",
+        "stad": "Addis Ababa",
+        "latitude": 9.0358287,
+        "longitude": 38.7524127,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "DR Congo",
+        "stad": "Kinshasa",
+        "latitude": -4.3196982,
+        "longitude": 15.3424196,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Namibia",
+        "stad": "Windhoek",
+        "latitude": -22.5335601,
+        "longitude": 17.0454775,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Morocco",
+        "stad": "Casablanca",
+        "latitude": 33.5945144,
+        "longitude": -7.6200284,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Libya",
+        "stad": "Tripoli",
+        "latitude": 32.896672,
+        "longitude": 13.1777923,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Rwanda",
+        "stad": "Kigali",
+        "latitude": -1.8859597,
+        "longitude": 30.1296751,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Mali",
+        "stad": "Bamako",
+        "latitude": 12.649319,
+        "longitude": -8.000337,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Senegal",
+        "stad": "Dakar",
+        "latitude": 14.693425,
+        "longitude": -17.447938,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Botswana",
+        "stad": "Gaborone",
+        "latitude": -24.6581357,
+        "longitude": 25.9088474,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Kenya",
+        "stad": "Nakuru",
+        "latitude": -0.2802724,
+        "longitude": 36.0712048,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Uganda",
+        "stad": "Kasese",
+        "latitude": 0.1310412,
+        "longitude": 30.0047968,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Uganda",
+        "stad": "Masindi",
+        "latitude": 1.6917534,
+        "longitude": 31.7737524,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Kenya",
+        "stad": "Voi",
+        "latitude": -3.5592753,
+        "longitude": 38.8036049,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Kenya",
+        "stad": "Mombasa",
+        "latitude": -4.05052,
+        "longitude": 39.667169,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Namibia",
+        "stad": "Nkurenkuru",
+        "latitude": -17.6299038,
+        "longitude": 18.6117549,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Chad",
+        "stad": "Sarh",
+        "latitude": 9.1406471,
+        "longitude": 18.3937969,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Botswana",
+        "stad": "Nata",
+        "latitude": -20.2106673,
+        "longitude": 26.1804804,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Africa",
+        "land": "Madagascar",
+        "stad": "Bekopaka",
+        "latitude": -19.1472078,
+        "longitude": 44.7912149,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "India",
+        "stad": "Nainital",
+        "latitude": 29.3905295,
+        "longitude": 79.460869,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "India",
+        "stad": "Golaghat",
+        "latitude": 26.5108262,
+        "longitude": 93.9743686,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "India",
+        "stad": "Sawai Madhopur",
+        "latitude": 26.1137182,
+        "longitude": 76.4240637,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "India",
+        "stad": "Umaria",
+        "latitude": 23.6431837,
+        "longitude": 80.9419078,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "India",
+        "stad": "Junagadh",
+        "latitude": 21.5220416,
+        "longitude": 70.4582458,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Indonesia",
+        "stad": "Labuan Bajo",
+        "latitude": -8.4944201,
+        "longitude": 119.8855688,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Indonesia",
+        "stad": "Medan",
+        "latitude": 3.5894617,
+        "longitude": 98.6741623,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Malaysia",
+        "stad": "Kota Kinabalu",
+        "latitude": 5.9780066,
+        "longitude": 116.0728988,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Thailand",
+        "stad": "Nakhon Ratchasima",
+        "latitude": 14.9747339,
+        "longitude": 102.0981161,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Thailand",
+        "stad": "Kanchanaburi",
+        "latitude": 14.0227073,
+        "longitude": 99.5323173,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Malaysia",
+        "stad": "Jerantut",
+        "latitude": 4.2834137,
+        "longitude": 102.5575232,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Sri Lanka",
+        "stad": "Tissamaharama",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Sri Lanka",
+        "stad": "Nuwara Eliya",
+        "latitude": 7.012402,
+        "longitude": 80.7571612,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "India",
+        "stad": "Thekkady",
+        "latitude": 9.5804995,
+        "longitude": 77.181142,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "South Korea",
+        "stad": "Seoul",
+        "latitude": 37.5666791,
+        "longitude": 126.9782914,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "South Korea",
+        "stad": "Sokcho",
+        "latitude": 38.2069574,
+        "longitude": 128.5913424,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Malaysia",
+        "stad": "Mulu",
+        "latitude": 4.0443919,
+        "longitude": 114.8085751,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Nepal",
+        "stad": "Solukhumbu",
+        "latitude": 27.7262537,
+        "longitude": 86.7812043,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Nepal",
+        "stad": "Chitwan",
+        "latitude": 27.618086,
+        "longitude": 84.4536201,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "China",
+        "stad": "Zhangjiajie",
+        "latitude": 29.373828,
+        "longitude": 110.530142,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "China",
+        "stad": "Jiuzhaigou",
+        "latitude": 33.3071597,
+        "longitude": 103.9325993,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Singapore",
+        "stad": "Singapore",
+        "latitude": 1.2899175,
+        "longitude": 103.8519072,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Japan",
+        "stad": "Tokyo",
+        "latitude": 35.6768601,
+        "longitude": 139.7638947,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Japan",
+        "stad": "Hachioji",
+        "latitude": 35.6663595,
+        "longitude": 139.3163653,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Hong Kong",
+        "stad": "Hong Kong",
+        "latitude": 22.2793278,
+        "longitude": 114.1628131,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Hong Kong",
+        "stad": "Hong Kong",
+        "latitude": 22.2793278,
+        "longitude": 114.1628131,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "China",
+        "stad": "Shanghai",
+        "latitude": 31.2312707,
+        "longitude": 121.4700152,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "China",
+        "stad": "Beijing",
+        "latitude": 40.190632,
+        "longitude": 116.412144,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Thailand",
+        "stad": "Chiang Mai",
+        "latitude": 18.7882778,
+        "longitude": 98.9858802,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Thailand",
+        "stad": "Bangkok",
+        "latitude": 13.7524938,
+        "longitude": 100.4935089,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Taiwan",
+        "stad": "Taipei",
+        "latitude": 25.0375198,
+        "longitude": 121.5636796,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Malaysia",
+        "stad": "Kuala Lumpur",
+        "latitude": 3.1526589,
+        "longitude": 101.7022205,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Indonesia",
+        "stad": "Bogor",
+        "latitude": -6.5962986,
+        "longitude": 106.7972421,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Indonesia",
+        "stad": "Bandung",
+        "latitude": -6.9218457,
+        "longitude": 107.6070833,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "India",
+        "stad": "Delhi",
+        "latitude": 28.6273928,
+        "longitude": 77.1716954,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "UAE",
+        "stad": "Al Ain",
+        "latitude": 24.2248697,
+        "longitude": 55.7452211,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "UAE",
+        "stad": "Dubai",
+        "latitude": 25.0742823,
+        "longitude": 55.1885387,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Armenia",
+        "stad": "Yerevan",
+        "latitude": 40.1777112,
+        "longitude": 44.5126233,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Asia",
+        "land": "Azerbaijan",
+        "stad": "Baku",
+        "latitude": 40.3755885,
+        "longitude": 49.8328009,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Switzerland",
+        "stad": "Zernez",
+        "latitude": 46.6979839,
+        "longitude": 10.0943311,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Croatia",
+        "stad": "Plitvice Lakes",
+        "latitude": 44.8523012,
+        "longitude": 15.590349,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Iceland",
+        "stad": "Skaftafell",
+        "latitude": 64.0164548,
+        "longitude": -16.966458,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "UK",
+        "stad": "Inverness",
+        "latitude": 57.4790124,
+        "longitude": -4.225739,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "UK",
+        "stad": "Bakewell",
+        "latitude": 53.2148429,
+        "longitude": -1.6758613,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "UK",
+        "stad": "Kendal",
+        "latitude": 54.3289795,
+        "longitude": -2.747183,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "France",
+        "stad": "Gap",
+        "latitude": 44.5612032,
+        "longitude": 6.0820639,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "France",
+        "stad": "MoÃ»tiers",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Italy",
+        "stad": "Cogne",
+        "latitude": 45.6087425,
+        "longitude": 7.3560226,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Italy",
+        "stad": "La Spezia",
+        "latitude": 44.238366,
+        "longitude": 9.6912326,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Sweden",
+        "stad": "Jokkmokk",
+        "latitude": 66.666667,
+        "longitude": 19.25,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Norway",
+        "stad": "Lom",
+        "latitude": 61.7142578,
+        "longitude": 8.4258977,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Hungary",
+        "stad": "HortobÃ¡gy",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Spain",
+        "stad": "Seville",
+        "latitude": 37.3886303,
+        "longitude": -5.9953403,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Spain",
+        "stad": "Tenerife",
+        "latitude": 28.2935785,
+        "longitude": -16.6214471,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "France",
+        "stad": "Nice",
+        "latitude": 43.7009358,
+        "longitude": 7.2683912,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Romania",
+        "stad": "PetroÈani",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Slovenia",
+        "stad": "Ljubljana",
+        "latitude": 46.0500268,
+        "longitude": 14.5069289,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Poland",
+        "stad": "BiaÅowieÅ¼a",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Germany",
+        "stad": "Bad Schandau",
+        "latitude": 50.918091,
+        "longitude": 14.1534018,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Spain",
+        "stad": "Asturias",
+        "latitude": 43.3133868,
+        "longitude": -5.94192,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Portugal",
+        "stad": "Ponte de Lima",
+        "latitude": 41.7675021,
+        "longitude": -8.5830992,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "UK",
+        "stad": "London",
+        "latitude": 51.5074456,
+        "longitude": -0.1277653,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Germany",
+        "stad": "Berlin",
+        "latitude": 52.510885,
+        "longitude": 13.3989367,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Austria",
+        "stad": "Vienna",
+        "latitude": 48.2083537,
+        "longitude": 16.3725042,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Czech Republic",
+        "stad": "Prague",
+        "latitude": 50.0874654,
+        "longitude": 14.4212535,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Netherlands",
+        "stad": "Rotterdam",
+        "latitude": 51.9244424,
+        "longitude": 4.47775,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Spain",
+        "stad": "Barcelona",
+        "latitude": 41.3825802,
+        "longitude": 2.177073,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Russia",
+        "stad": "Moscow",
+        "latitude": 55.625578,
+        "longitude": 37.6063916,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Serbia",
+        "stad": "Belgrade",
+        "latitude": 44.8178131,
+        "longitude": 20.4568974,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Poland",
+        "stad": "Warsaw",
+        "latitude": 52.2337172,
+        "longitude": 21.0714322,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Spain",
+        "stad": "Madrid",
+        "latitude": 40.4167047,
+        "longitude": -3.7035825,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Hungary",
+        "stad": "Budapest",
+        "latitude": 47.4813896,
+        "longitude": 19.1460941,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Ireland",
+        "stad": "Dublin",
+        "latitude": 53.3493795,
+        "longitude": -6.2605593,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Finland",
+        "stad": "Helsinki",
+        "latitude": 60.1674881,
+        "longitude": 24.9427473,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Denmark",
+        "stad": "Copenhagen",
+        "latitude": 55.6867243,
+        "longitude": 12.5700724,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Portugal",
+        "stad": "Lisbon",
+        "latitude": 38.7077507,
+        "longitude": -9.1365919,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Greece",
+        "stad": "Athens",
+        "latitude": 37.9755648,
+        "longitude": 23.7348324,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "Croatia",
+        "stad": "Zagreb",
+        "latitude": 45.8130967,
+        "longitude": 15.9772795,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Europe",
+        "land": "UK",
+        "stad": "Kincraig",
+        "latitude": 57.1274984,
+        "longitude": -3.9311803,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Wyoming",
+        "latitude": 43.1700264,
+        "longitude": -107.568534,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "California",
+        "latitude": 36.7014631,
+        "longitude": -118.755997,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Arizona",
+        "latitude": 34.395342,
+        "longitude": -111.763275,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Utah",
+        "latitude": 39.4225192,
+        "longitude": -111.714358,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Utah",
+        "latitude": 39.4225192,
+        "longitude": -111.714358,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Montana",
+        "latitude": 47.3752671,
+        "longitude": -109.638757,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Colorado",
+        "latitude": 38.7251776,
+        "longitude": -105.607716,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Florida",
+        "latitude": 27.7567667,
+        "longitude": -81.4639835,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Wyoming",
+        "latitude": 43.1700264,
+        "longitude": -107.568534,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "California",
+        "latitude": 36.7014631,
+        "longitude": -118.755997,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "South Dakota",
+        "latitude": 44.6471761,
+        "longitude": -100.348761,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Tennessee",
+        "latitude": 35.7730076,
+        "longitude": -86.2820081,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Virginia",
+        "latitude": 37.1232245,
+        "longitude": -78.4927721,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Washington",
+        "latitude": 38.8950368,
+        "longitude": -77.0365427,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Alaska",
+        "latitude": 64.4459613,
+        "longitude": -149.680909,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Maine",
+        "latitude": 45.709097,
+        "longitude": -68.8590201,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Utah",
+        "latitude": 39.4225192,
+        "longitude": -111.714358,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Utah",
+        "latitude": 39.4225192,
+        "longitude": -111.714358,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "California/Nevada",
+        "latitude": 39.5311222,
+        "longitude": -119.8095626,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "California",
+        "latitude": 36.7014631,
+        "longitude": -118.755997,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Canada",
+        "stad": "Alberta",
+        "latitude": 55.001251,
+        "longitude": -115.002136,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Canada",
+        "stad": "Alberta",
+        "latitude": 55.001251,
+        "longitude": -115.002136,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Canada",
+        "stad": "British Columbia",
+        "latitude": 55.001251,
+        "longitude": -125.002441,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Canada",
+        "stad": "Newfoundland",
+        "latitude": 49.1211912,
+        "longitude": -56.6403246,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Canada",
+        "stad": "British Columbia",
+        "latitude": 55.001251,
+        "longitude": -125.002441,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Canada",
+        "stad": "Alberta/NWT",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Canada",
+        "stad": "New Brunswick",
+        "latitude": 46.500283,
+        "longitude": -66.750183,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Canada",
+        "stad": "Nova Scotia",
+        "latitude": 45.1960403,
+        "longitude": -63.1653789,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "San Diego",
+        "latitude": 32.7174202,
+        "longitude": -117.162772,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "New York",
+        "latitude": 40.7127281,
+        "longitude": -74.0060152,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Chicago",
+        "latitude": 41.8755616,
+        "longitude": -87.6244212,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Houston",
+        "latitude": 29.7589382,
+        "longitude": -95.3676974,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Canada",
+        "stad": "Calgary",
+        "latitude": 51.0456064,
+        "longitude": -114.057541,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Canada",
+        "stad": "Toronto",
+        "latitude": 43.6534817,
+        "longitude": -79.3839347,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Memphis",
+        "latitude": 35.1460249,
+        "longitude": -90.0517638,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Royal Oak",
+        "latitude": 42.4894801,
+        "longitude": -83.1446485,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "San Francisco",
+        "latitude": 37.7792588,
+        "longitude": -122.4193286,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Philadelphia",
+        "latitude": 39.9527237,
+        "longitude": -75.1635262,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Miami",
+        "latitude": 25.7741728,
+        "longitude": -80.19362,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Atlanta",
+        "latitude": 33.7544657,
+        "longitude": -84.3898151,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Denver",
+        "latitude": 39.7392364,
+        "longitude": -104.984862,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Canada",
+        "stad": "Vancouver",
+        "latitude": 49.2608724,
+        "longitude": -123.113952,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Canada",
+        "stad": "Winnipeg",
+        "latitude": 49.8955367,
+        "longitude": -97.1384584,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Belize",
+        "stad": "Belize City",
+        "latitude": 17.5002768,
+        "longitude": -88.1988737,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Costa Rica",
+        "stad": "Monteverde",
+        "latitude": 10.2911515,
+        "longitude": -84.8136439,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Mexico",
+        "stad": "Mexico City",
+        "latitude": 19.3207722,
+        "longitude": -99.1514678,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "Mexico",
+        "stad": "Tulum",
+        "latitude": 20.429647,
+        "longitude": -87.6529306,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Puerto Rico",
+        "latitude": 18.2247706,
+        "longitude": -66.4858295,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "North America",
+        "land": "USA",
+        "stad": "Kentucky",
+        "latitude": 37.5726028,
+        "longitude": -85.1551411,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Argentina",
+        "stad": "Puerto IguazÃº",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Argentina",
+        "stad": "El Calafate",
+        "latitude": -50.3387375,
+        "longitude": -72.2737216,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Chile",
+        "stad": "Patagonia",
+        "latitude": -33.0162058,
+        "longitude": -71.5219219,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Peru",
+        "stad": "Madre de Dios",
+        "latitude": -12.0,
+        "longitude": -70.25,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Ecuador",
+        "stad": "GalÃ¡pagos",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Venezuela",
+        "stad": "BolÃ­var",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Ecuador",
+        "stad": "Cotopaxi",
+        "latitude": -0.8268521,
+        "longitude": -78.8937757,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Colombia",
+        "stad": "Magdalena",
+        "latitude": 10.5808075,
+        "longitude": -74.0685669,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Peru",
+        "stad": "Ancash",
+        "latitude": -9.5,
+        "longitude": -77.75,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Colombia",
+        "stad": "Tolima",
+        "latitude": 4.0355786,
+        "longitude": -75.2086642,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Colombia",
+        "stad": "Magdalena",
+        "latitude": 10.5808075,
+        "longitude": -74.0685669,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Bolivia",
+        "stad": "La Paz",
+        "latitude": -16.4955455,
+        "longitude": -68.1336229,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Bolivia",
+        "stad": "Santa Cruz",
+        "latitude": -17.333333,
+        "longitude": -61.5,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Brazil",
+        "stad": "Mato Grosso",
+        "latitude": -12.2115009,
+        "longitude": -55.5716547,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Brazil",
+        "stad": "PiauÃ­",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Brazil",
+        "stad": "Pernambuco",
+        "latitude": -8.4116316,
+        "longitude": -37.5919699,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Brazil",
+        "stad": "AmapÃ¡",
+        "latitude": 1.3545442,
+        "longitude": -51.9161977,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Argentina",
+        "stad": "Entre RÃ­os",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Argentina",
+        "stad": "La Rioja",
+        "latitude": -29.9729781,
+        "longitude": -67.0487944,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Argentina",
+        "stad": "Bariloche",
+        "latitude": -41.1334781,
+        "longitude": -71.3101474,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Argentina",
+        "stad": "Chubut",
+        "latitude": -43.7128356,
+        "longitude": -68.7461817,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Chile",
+        "stad": "BÃ­o-BÃ­o",
+        "latitude": -21.8750534,
+        "longitude": -47.8709662,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Chile",
+        "stad": "Atacama",
+        "latitude": -24.5563029,
+        "longitude": -69.4226479,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Brazil",
+        "stad": "Rio de Janeiro",
+        "latitude": -22.9110137,
+        "longitude": -43.2093727,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Brazil",
+        "stad": "Bahia",
+        "latitude": -12.285251,
+        "longitude": -41.9294776,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Venezuela",
+        "stad": "FalcÃ³n",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Ecuador",
+        "stad": "Azuay",
+        "latitude": -3.0524451,
+        "longitude": -79.2395135,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Ecuador",
+        "stad": "Orellana",
+        "latitude": -0.78618,
+        "longitude": -76.4803184,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Peru",
+        "stad": "Lima",
+        "latitude": -12.0621065,
+        "longitude": -77.0365256,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Ecuador",
+        "stad": "Quito",
+        "latitude": -0.2201641,
+        "longitude": -78.5123274,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Brazil",
+        "stad": "Porto Alegre",
+        "latitude": -30.0324999,
+        "longitude": -51.2303767,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Paraguay",
+        "stad": "AsunciÃ³n",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Colombia",
+        "stad": "Cali",
+        "latitude": 3.4108435,
+        "longitude": -76.5812127,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Ecuador",
+        "stad": "Guayaquil",
+        "latitude": -2.2895167,
+        "longitude": -80.0983887,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Chile",
+        "stad": "Santiago",
+        "latitude": -33.4377756,
+        "longitude": -70.6504502,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Brazil",
+        "stad": "SÃ£o Paulo",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Brazil",
+        "stad": "Rio de Janeiro",
+        "latitude": -22.9110137,
+        "longitude": -43.2093727,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Brazil",
+        "stad": "BelÃ©m",
+        "latitude": -22.080992,
+        "longitude": -56.5387815,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Brazil",
+        "stad": "BrasÃ­lia",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "South America",
+        "land": "Colombia",
+        "stad": "BoyacÃ¡",
+        "latitude": 5.6278979,
+        "longitude": -72.8268617,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Northern Territory",
+        "latitude": -19.8516101,
+        "longitude": 133.2303375,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Northern Territory",
+        "latitude": -19.8516101,
+        "longitude": 133.2303375,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Queensland",
+        "latitude": -22.1646782,
+        "longitude": 144.5844903,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "New South Wales",
+        "latitude": -31.8759835,
+        "longitude": 147.2869493,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Queensland",
+        "latitude": -22.1646782,
+        "longitude": 144.5844903,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "New South Wales",
+        "latitude": -31.8759835,
+        "longitude": 147.2869493,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "New South Wales",
+        "latitude": -31.8759835,
+        "longitude": 147.2869493,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Tasmania",
+        "latitude": -42.035067,
+        "longitude": 146.6366887,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Tasmania",
+        "latitude": -42.035067,
+        "longitude": 146.6366887,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "New South Wales",
+        "latitude": -31.8759835,
+        "longitude": 147.2869493,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "New Zealand",
+        "stad": "Canterbury",
+        "latitude": -43.4941762,
+        "longitude": 171.8098448,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "New Zealand",
+        "stad": "Southland",
+        "latitude": -45.9254266,
+        "longitude": 167.6068483,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "New Zealand",
+        "stad": "ManawatÅ«-Whanganui",
+        "latitude": null,
+        "longitude": null,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "New Zealand",
+        "stad": "Tasman",
+        "latitude": -41.302221,
+        "longitude": 172.8945319,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Melbourne",
+        "latitude": -37.8142454,
+        "longitude": 144.9631732,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Sydney",
+        "latitude": -33.8698439,
+        "longitude": 151.2082848,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Adelaide",
+        "latitude": -34.9281805,
+        "longitude": 138.5999312,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Perth",
+        "latitude": -31.9558967,
+        "longitude": 115.8605784,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Brisbane",
+        "latitude": -27.4689623,
+        "longitude": 153.0235009,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "New Zealand",
+        "stad": "Wellington",
+        "latitude": -41.2887953,
+        "longitude": 174.7772114,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "New Zealand",
+        "stad": "Auckland",
+        "latitude": -36.852095,
+        "longitude": 174.7631803,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Papua New Guinea",
+        "stad": "Port Moresby",
+        "latitude": -9.4743301,
+        "longitude": 147.1599504,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Fiji",
+        "stad": "Taveuni",
+        "latitude": -16.8261493,
+        "longitude": -179.9354607,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Jervis Bay Territory",
+        "latitude": -35.1494368,
+        "longitude": 150.7085321,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Western Australia",
+        "latitude": -25.2303005,
+        "longitude": 121.0187246,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Western Australia",
+        "latitude": -25.2303005,
+        "longitude": 121.0187246,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Victoria",
+        "latitude": -36.5986096,
+        "longitude": 144.6780052,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Tasmania",
+        "latitude": -42.035067,
+        "longitude": 146.6366887,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "Australia",
+        "stad": "Queensland",
+        "latitude": -22.1646782,
+        "longitude": 144.5844903,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "New Zealand",
+        "stad": "Tasman",
+        "latitude": -41.302221,
+        "longitude": 172.8945319,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "New Zealand",
+        "stad": "Otago",
+        "latitude": -45.3975053,
+        "longitude": 170.1778918,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "New Zealand",
+        "stad": "West Coast",
+        "latitude": -42.5638896,
+        "longitude": 171.452334,
+        "foto_url": "",
+        "beschrijving": ""
+    },
+    {
+        "naam": "",
+        "continent": "Oceania",
+        "land": "New Zealand",
+        "stad": "Whanganui",
+        "latitude": -39.9324904,
+        "longitude": 175.0519306,
+        "foto_url": "",
+        "beschrijving": ""
+    }
+]

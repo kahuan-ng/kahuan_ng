@@ -1,0 +1,12 @@
+.div1_main {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+}

@@ -1,0 +1,53 @@
+.vierkant {
+    display: grid;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+}
+
+.scheiding {
+	clear: both;
+}
+
+.rechthoek {
+    display: grid;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    float: right;
+    text-align: center;
+}
+
+.rood {
+    background-color: red;
+}
+
+.blauw {
+    background-color: blue;
+}
+
+.geel {
+    background-color: yellow;
+}
+
+.groen {
+    background-color: green;
+}
+
+.dunne_rand {
+    border: 1px solid black;
+}
+
+.dikke_rand {
+    border: 5px solid black;
+}
+
+.gestippelde_rand {
+    border: 4px dotted black;
+}
+
+.dubbele_rand {
+    border: 5px double black;
+}

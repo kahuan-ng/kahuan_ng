@@ -1,0 +1,1576 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)https://filemanager.one.com/#kahuan.ng@jopie.be/ka-huan-ng.net/files/php/php_oefeningen/ -->
+<html lang="nl-NL" data-version="17.0.0"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>one.com File Manager</title>
+        <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAQhJREFUOBGVU0EOAUEQrJ4g8Qd8YBP+4CDxDxdXF1dXFzfZi39IHPyBZD+AP0gQo6s3K0tmdpnLzlZX9XT31Ai+1nw/SHB/TOAxgqBnYY+T7ndoNjbL4SErS6T4WWRJ63rGCvBTD7gCL3+V/AQkbXcxWyTZjTFLYOILtt77YVkQ24vIvt3BmEnsJJ78q5hJyc2r1Qqs59v9GCs7WgXbaTX7jgP7V2xVcE6qdTbt2DF1uN6Ue19VHTkU12sOXleIG8PYwikWrMVVyxZ2tcQYQbWO9swdFmOFcdOo1uXeljRMq0IlpdaGSG/TnlX0csysrBpiloCeprcFsq5qhzFyinfABIp9rn+f8wuuhWG50fDCTAAAAABJRU5ErkJggg==" sizes="16x16">
+        <link rel="icon" type="image/png" href="https://filemanager-static.cdn-one.com/v17.0.0/media/one_24x24.3291127d.png" sizes="24x24">
+        <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAlZJREFUWAnFl7FLHEEUxt8b5WQj2AmySRSMNrlgF0gZwRRRCFj7P6SwTEAOxYCNhf9D6kBAbAK2gXTRS5OkieEM2B3o4aG+vO/pLHvreq7e3u40ezcz+37fzOy8+YYpY6nVq5VWg2blgt6w0FMiCYk5tNdFGkTcEKYf7OhzENJurVpvZwnNt3Wq7VbHWm1aIZElIRq5rT/aNWhTxX0MKrRam63/6/bOjQK2fr4eavz+8/6CaVnhw92C3NjGfOyENsMn4+tvp3dO0/qlCrgctXwSoRdpL921jpm+BhVeTJuNawLefXk2c34m20Ly6K6gbv2Z+C8NuPmNV3t78X4dAmzkp/Qtb7gHQkQwRM/jM+F8I9a81dZpz3nkPj6eiA0GWL4+EoAPLq8198HTnmCA5dtsCTD1J236de+v3UfL+tTd8aBCU1gKm4GrfX6/rZYVGu+n29qYWseW4Q7kKGuSicfp5bdOfTN4zKPO0mvGDNcLMPkuBgy2Q25PNhb1H2x3ebAUhezkgK0foZ5qpRUJXXSkliFCj/MoEZXBFy1Ok4+aiXKKbsVDnQEuTQDYDjaqnPHr569sBw9XlgCwHQwk0mLRIiwVK9uZe1UDWbQAmFawbRvCvWrFcWEilGVMBZoAO5fVvRYlAE7Z27IoEcE6w732WwQYYHlOJAC+HdbZ3KtvzflpplQZ8TtCJAAsTMvAIC/0Q4TFVFvup96PrUMAKj/M7X+Hdc5zOexiojGTdwLwrglAJVQ+nJx4qUflWk+7A1czjYFYyZGDg6L5oHsp7XKalNWv6/l/prjzs3+T+GYAAAAASUVORK5CYII=" sizes="32x32">
+        <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAA25JREFUaAXVmk1rE0EYx+eZJtBUGwhWRDx46aGIL6AVURAUMR6rBz3pSfwCPfiCl1zEl0O/QU960oP2aEQUBEWsgi9ID7l4kCJWAok2haQ7Pv8Js2zSbbKTNNmduezsyzzz+8/Mzs48z5LYgjT39njm99/KWU+J00qIKRJiUgiVE4rGtXlSVSGozPdKfG9Jkni1c3v2xeyJd7V+q2d7vaWbbw7kRM2b8ZSaIUV5JdSYjSUStKpIFSXRgsjIhXsnv5ZtyptnrQUUFo+M1f6szSqlrrORZgsba70fq0T0ILNjdK4w/XHVxkxkAY/VxZFPxe9XGbzAQ2G3TSVRn2WYZRZSOJzfN3+JnqxHKRdJwO2Xh/bUG41nQqnpKEb7foZoMZ1Knb9z5vPPbra6Crj1/OAxTzWeDqrVNwNEb0hKXbh77sv7zZ7Bddnp5o3i/sueaLweNjyYUCfqBkMnxk17AAWV5z3sVHhY90jKK/fz3x6F1RcqQA8btLwSo2GFhn2NSKxJkToVNpw2CMAL26jXP8QxbDo1DN6JVDp9tP3FbnkHMFVitkkaPISBCWxgDAptEYB5fmhTZZAiap6ncc0YeN4fQvoLu1IrJbH1A7wCQykzkZk0X2y/B/TyYEBf2CBAv3k0MFiNHd0DWJh5/9Z/8MWtWtsY+4M6VuW2kb1YADZ7gFeVDsGjUcaxEkZGC8CSGCcuJcNM2Iz8qlRWbNfzcYvFfmJXNjshsZNyDR6NB2awS2wD427NXusHu+RpaapXA3GXAzvvr7EBdzOBnWch9h44m1RO+q4PF0Ww28ZfSrjID2YptNPJUXxm5x6gnhxKyZBMZUyjpWTA2FOAHdPokn3RZJQAu4SjNRk49hRgl/ASY2FkXzzeEmAGu4SLG17ieHHsawcz2PV3QLu47W3EWsIwNz9k7J9nGg5COJOqiCmAVgvA3hL+eVfwwWoCIs0eYHIEF3haWk66CDCC1XD6AuBnQXDB3EjqEYzGJwRGXwBOEBkRHFxAPpGJ2TRjAK5FAMI6iIwkcSiBCWztoacWARAG7y8iI3BpB4TGmtXudWZq90wDaoMAXNR+eJLXkE9EYpaw2ADYQgXgBiIiiIzE2ROou1N0Bpw8tDqnpAf5ugqAPKfDrKZ/nA50GxE4OvurQVAE8s7+7NEuBOdx/m7zH1V5ffTwFhRhAAAAAElFTkSuQmCC" sizes="48x48">
+        <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="data:image/vnd.microsoft.icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAQhJREFUOBGVU0EOAUEQrJ4g8Qd8YBP+4CDxDxdXF1dXFzfZi39IHPyBZD+AP0gQo6s3K0tmdpnLzlZX9XT31Ai+1nw/SHB/TOAxgqBnYY+T7ndoNjbL4SErS6T4WWRJ63rGCvBTD7gCL3+V/AQkbXcxWyTZjTFLYOILtt77YVkQ24vIvt3BmEnsJJ78q5hJyc2r1Qqs59v9GCs7WgXbaTX7jgP7V2xVcE6qdTbt2DF1uN6Ue19VHTkU12sOXleIG8PYwikWrMVVyxZ2tcQYQbWO9swdFmOFcdOo1uXeljRMq0IlpdaGSG/TnlX0csysrBpiloCeprcFsq5qhzFyinfABIp9rn+f8wuuhWG50fDCTAAAAABJRU5ErkJggg==">
+        <link rel="apple-touch-icon-precomposed" href="https://filemanager-static.cdn-one.com/v17.0.0/media/iOSiconWebFileManager.093cf39e.svg">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://filemanager-static.cdn-one.com/v17.0.0/media/iOSiconWebFileManager.093cf39e.svg">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://filemanager-static.cdn-one.com/v17.0.0/media/iOSiconWebFileManager.093cf39e.svg">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://filemanager-static.cdn-one.com/v17.0.0/media/iOSiconWebFileManager.093cf39e.svg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="./one.com File Manager_files/webfm.css" rel="stylesheet"><script id="onebar" type="text/html"><div class="OneBar" data-bind="css: { 'OneBar--isInternalBuild': isInternalBuild }">
+    <div class="OneBar-Logo"></div>
+    <ul class="applications" data-bind="foreach: applications">
+        <li data-bind="css: { 'active': $parent.activeApplication === name }, click: $parent.handleSelection">
+            <a data-bind="text: name, attr: { 'href': link }"></a>
+        </li>
+    </ul>
+    <ul class="controls">
+        <li>
+            <div class="OneBar-Avatar"></div>
+            <span data-bind="text: $root.state.currentUser().displayName()"></span>
+        </li>
+        <li>
+            <language-picker params="supportedLocaleIds: supportedLocaleIds"></language-picker>
+        </li>
+        <li><span class="OneBar-Link" data-bind="click: handleLogout, text: logoutText"></span></li>
+    </ul>
+</div>
+</script><script id="languagePicker" type="text/html"><div class="LanguagePicker" data-bind="click: toggleDropdown">
+    <span data-bind="text: activeDisplayName"></span>
+    <i class="caret"></i>
+
+    <div class="dropdown closed" data-bind="css: { 'opening': dropdownOpen, 'closing': !dropdownOpen() }">
+        <div class="inner">
+            <ul data-bind="foreach: locales">
+                <li
+                    class="dropdown-item"
+                    data-bind="click: $parent.changeLocale, css: { 'active': displayName === $parent.activeDisplayName }"
+                >
+                    <span data-bind="text: displayName"></span>
+                    <i class="checkmark"></i>
+                    <span data-bind="attr: {'class': 'flag flag-' + id }"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</script><script charset="utf-8" src="./one.com File Manager_files/chunk.10.js.download"></script><script id="recursiveMergeFileConflictDialog" type="text/html"><h6 data-i18n="webfm.actions.dialog.upload.FileExists">Het bestand bestaat al</h6>
+<p>
+    </p><div class="displayName" data-bind="text: existingDirectoryEntryDisplayPath"></div>
+    <span data-i18n="webfm.actions.upload.dialog.howSolveConflict">Hoe moet het conflict worden opgelost?</span><br>
+    <!-- ko 'if': targetNotWritable -->
+        <span data-i18n="webfm.actions.upload.dialog.targetNotWritable">Overschrijven is niet mogelijk omdat de doellocatie "alleen-lezen" is.</span>
+    <!-- /ko -->
+    <!-- ko 'if': isOverwritePossible -->
+        <span class="dialog-panel--warning" data-i18n="webfm.actions.dialog.overwriteCannotBeUndone">Overschrijven is permanent en kan niet ongedaan worden gemaakt.</span><br>
+    <!-- /ko -->
+<p></p>
+<label data-bind="hidden: applyToRemaining"><input type="checkbox" data-bind="checked: applyToRemaining"><span data-i18n="webfm.actions.dialog.alwaysUseThisAction">Gebruik deze actie altijd</span></label>
+<button class="one-button-style dialog-panel--button" data-bind="click: autoRename" data-i18n="webfm.actions.dialog.AutoRename">Automatisch hernoemen</button>
+<button class="one-button-style dialog-panel--button" data-bind="click: overwrite, visible: isOverwritePossible" data-i18n="webfm.actions.dialog.Overwrite">Overschrijven</button>
+<button class="one-button-style dialog-panel--button" data-bind="click: skip" data-i18n="webfm.actions.dialog.Skip">Overslaan</button>
+<button class="no-border-button dialog-panel--button" data-bind="click: cancel" data-i18n="webfm.actions.dialog.Cancel">Annuleren</button>
+</script><script id="recursiveMergeFolderConflictDialog" type="text/html"><h6 data-i18n="webfm.actions.upload.dialog.FolderExists">Map bestaat al</h6>
+<p>
+    </p><div class="displayName" data-bind="text: existingDirectoryEntryDisplayPath"></div>
+    <span data-i18n="webfm.actions.upload.dialog.howSolveConflict">Hoe moet het conflict worden opgelost?</span><br>
+    <!-- ko 'if': targetNotWritable -->
+        <span data-i18n="webfm.actions.upload.dialog.targetNotWritable">Overschrijven is niet mogelijk omdat de doellocatie "alleen-lezen" is.</span>
+    <!-- /ko -->
+    <!-- ko 'if': isOverwritePossible -->
+        <span class="dialog-panel--warning" data-i18n="webfm.actions.dialog.overwriteCannotBeUndone">Overschrijven is permanent en kan niet ongedaan worden gemaakt.</span>
+    <!-- /ko -->
+<p></p>
+<label><input type="checkbox" data-bind="checked: applyToRemaining"><span data-i18n="webfm.actions.dialog.alwaysUseThisAction">Gebruik deze actie altijd</span></label>
+<button class="one-button-style dialog-panel--button" data-bind="click: autoRename" data-i18n="webfm.actions.dialog.AutoRename">Automatisch hernoemen</button>
+<button class="one-button-style dialog-panel--button" data-bind="click: overwrite, visible: isOverwritePossible" data-i18n="webfm.actions.dialog.Overwrite">Overschrijven</button>
+<button class="one-button-style dialog-panel--button" data-bind="click: skip" data-i18n="webfm.actions.dialog.Skip">Overslaan</button>
+<button class="no-border-button dialog-panel--button" data-bind="click: cancel" data-i18n="webfm.actions.dialog.Cancel">Annuleren</button>
+</script><script id="genericConfirmFileDialog" type="text/html"><h6 data-bind="text: title"></h6>
+<p>
+    <em class="displayName" data-bind="text: displayName"></em><br>
+</p>
+<label data-bind="visible: !appliesToAll"><input type="checkbox" data-bind="checked: applyToRemaining"><span data-i18n="webfm.actions.dialog.alwaysUseThisAction">Gebruik deze actie altijd</span></label>
+<button class="one-button-style dialog-panel--button" data-bind="click: proceed, visible: canProceed, text: proceedDisplayName"></button>
+<button class="one-button-style dialog-panel--button" data-bind="click: skip, visible: canProceed &amp;&amp; !appliesToAll" data-i18n="webfm.actions.dialog.Skip">Overslaan</button>
+<button class="one-button-style dialog-panel--button" data-bind="click: skip, visible: !canProceed" data-i18n="webfm.actions.delete.dialog.Ignore">Negeren</button>
+<button class="no-border-button dialog-panel--button" data-bind="click: cancel" data-i18n="webfm.actions.dialog.Cancel">Annuleren</button>
+</script><script id="genericConfirmFolderDialog" type="text/html"><h6 data-bind="text: title"></h6>
+<p>
+    <em class="displayName" data-bind="text: directoryEntry.displayName"></em><br>
+</p>
+<label data-bind="visible: !appliesToAll"><input type="checkbox" data-bind="checked: applyToRemaining"><span data-i18n="webfm.actions.dialog.alwaysUseThisAction">Gebruik deze actie altijd</span></label>
+<button class="one-button-style dialog-panel--button" data-bind="click: proceed, visible: canProceed, text: proceedDisplayName"></button>
+<button class="one-button-style dialog-panel--button" data-bind="click: skip, visible: canProceed &amp;&amp; !appliesToAll" data-i18n="webfm.actions.dialog.Skip">Overslaan</button>
+<button class="one-button-style dialog-panel--button" data-bind="click: skip, visible: !canProceed" data-i18n="webfm.actions.delete.dialog.Ignore">Negeren</button>
+<button class="no-border-button dialog-panel--button" data-bind="click: cancel" data-i18n="webfm.actions.dialog.Cancel">Annuleren</button>
+</script><script id="copyDialog" type="text/html"><h6 data-bind="text: inter.trQuantity(TR('webfm.actions.copyDirectoryEntries.NItemsCopied', {one: '{0} item copied', other: '{0} items copied'}), $root.state.clipboard().length)"></h6>
+<span data-bind="text: inter.trQuantity(TR('webfm.actions.copyDirectoryEntries.GoIntoTheFolderYouWantToCopyTheItemsTo', {one: 'Go into the folder you want to copy the item to', other: 'Go into the folder you want to copy the items to'}), $root.state.clipboard().length)"></span><br>
+<div class="dialog-panel--warning">
+    <span data-bind="visible: targetOnDifferentDrive" data-i18n="webfm.actions.copyDirectoryEntries.CopyBetweenDrivesNotSupported">Het kopiëren van items tussen drives wordt niet ondersteund.</span>
+    <span data-bind="visible: targetDirectoryIsChildOfSource" data-i18n="webfm.actions.copyDirectoryEntries.CannotCopyItemsToSubfolderOfSelf">Je kunt de items niet kopiëren naar een submap van dezelfde map.</span>
+</div>
+<span data-i18n="webfm.dialog.ConfirmOrCancel"><button class="one-button-style dialog-panel--button" data-bind="click: $root.pasteDirectoryEntries.bind($root, $root.state.currentDirectoryEntry(), $data),
+        text: inter.trQuantity(TR('webfm.actions.copyDirectoryEntries.CopyTheItemsToThisFolder', {one: 'Copy the item to this folder', other: 'Copy the items to this folder'}), $root.state.clipboard().length),
+        attr: {
+            disabled: $data.targetDirectoryIsChildOfSource()
+        }"></button> of <button class="one-button-style dialog-panel--button" data-bind="click: $root.cancelClipDialog.bind($root, $data)" data-i18n="webfm.actions.dialog.Cancel">Annuleren</button></span>
+</script><script id="moveDialog" type="text/html"><h6 data-bind="text: inter.trQuantity(TR('webfm.actions.moveDirectoryEntries.MovingNItems', {one: 'Moving {0} item', other: 'Moving {0} items'}), $root.state.clipboard().length)"></h6>
+<span data-bind="text: inter.trQuantity(TR('webfm.actions.moveDirectoryEntries.GoIntoTheFolderYouWantToMoveTheItemsTo', {one: 'Go into the folder you want to move the item to', other: 'Go into the folder you want to move the items to'}), $root.state.clipboard().length)"></span><br>
+<div class="dialog-panel--warning">
+    <span data-bind="visible: targetOnDifferentDrive" data-i18n="webfm.actions.moveDirectoryEntries.MoveBetweenDrivesNotSupported">Het verplaatsen van items tussen drives wordt niet ondersteund.</span>
+    <span data-bind="visible: targetDirectoryIsChildOfSource" data-i18n="webfm.actions.moveDirectoryEntries.CannotMoveItemsToSubfolderOfSelf">Je kunt de items niet verplaatsen naar een submap van dezelfde map .</span>
+    <span data-bind="visible: $root.state.currentDirectoryEntry() === $data.sourceDirectory" data-i18n="webfm.actions.moveDirectoryEntries.haveToPickOtherTarget">De doellocatie moet anders zijn dan de originele locatie.</span>
+</div>
+<span data-i18n="webfm.dialog.ConfirmOrCancel"><button class="one-button-style dialog-panel--button" data-bind="click: $root.pasteDirectoryEntries.bind($root, $root.state.currentDirectoryEntry(), $data),
+        text: inter.trQuantity(TR('webfm.actions.moveDirectoryEntries.MoveTheItemsToThisFolder', {one: 'Move the item to this folder', other: 'Move the items to this folder'}), $root.state.clipboard().length),
+        attr: {
+            disabled: ($root.state.currentDirectoryEntry() === $data.sourceDirectory) || $data.targetDirectoryIsChildOfSource()
+        }"></button> of <button class="one-button-style dialog-panel--button" data-bind="click: $root.cancelClipDialog.bind($root, $data)" data-i18n="webfm.actions.dialog.Cancel">Annuleren</button></span>
+</script><script id="directorySecurity" type="text/html"><div class="DirectorySecurity">
+<!-- ko if: isLoading() -->
+    <div class="solid loading-overlay">
+        <div class="loader"></div>
+    </div>
+<!-- /ko -->
+<!-- ko ifnot: isLoading() -->
+    <horizontal-scrollable>
+        <htpasswd-editor params="data: data, onChange: onChange, onSubmit: onSubmit">
+        </htpasswd-editor>
+    </horizontal-scrollable>
+    <!-- ko if: invalidErrorMessage() -->
+    <div class="DirectorySecurity-error">
+        <div class="DirectorySecurity-error--message" data-bind="text: invalidErrorMessage"></div>
+    </div>
+    <!-- /ko -->
+    <!-- ko if: isDialogShown() -->
+    <div class="DirectorySecurity-dialog">
+        <div class="layout bottom dialog-panel" style="height: 174px; top: auto;">
+            <div class="dialog-panel--horizontally-centered-body"><h6 data-bind="text: replaceExistingFile"></h6>
+                <p><em class="displayName">.htpasswd</em><br></p>
+                <button data-bind="click: confirmDirectorySecurityEntries, text: btnSaveText" class="DirectorySecurity-confirm one-button-style dialog-panel--button"></button>
+                <button data-bind="click: cancelDirectorySecurityEntries, text: btnCancelText" class="DirectorySecurity-cancel no-border-button dialog-panel--button"></button>
+            </div>
+        </div>
+    </div>
+    <!-- /ko -->
+<!-- /ko -->
+</div>
+</script><script id="horizontalScrollable" type="text/html"><div class="HorizontalScrollable">
+    <!-- ko template: { nodes: $componentTemplateNodes, data: $parent } --><!-- /ko -->
+</div>
+</script><script id="inPlaceEditor" type="text/html"><div class="in-place-editor-content" data-bind="css: { multiline: isMultiline }">
+    <!-- ko if: placeholder -->
+    <span class="floating-placeholder" data-bind="css: { 'float': float }, text: placeholder"></span>
+    <!-- /ko -->
+    <!-- ko if: isMultiline -->
+        <!-- ko if: !!autocomplete -->
+        <textarea rows="1" data-bind="disable: disabled,
+                             hasFocus: focused,
+                             textInput: value,
+                             autoExpand: value,
+                             attr: { tabindex: tabindex, name: name, id: id },
+                             valueUpdate: valueUpdate,
+                             autocomplete: autocomplete,
+                             event: events"></textarea>
+       <!-- /ko -->
+       <!-- ko ifnot: !!autocomplete -->
+       <textarea rows="1" data-bind="disable: disabled,
+                            hasFocus: focused,
+                            textInput: value,
+                            autoExpand: value,
+                            attr: { tabindex: tabindex, name: name, id: id },
+                            valueUpdate: valueUpdate,
+                            event: events"></textarea>
+        <!-- /ko -->
+    <!-- /ko -->
+    <!-- ko ifnot: isMultiline -->
+        <!-- ko if: !!autocomplete -->
+        <input type="text" data-bind="disable: disabled,
+                          hasFocus: focused,
+                          textInput: value,
+                          attr: { tabindex: tabindex, name: name, id: id },
+                          valueUpdate: valueUpdate,
+                          autocomplete: autocomplete,
+                          event: events">
+        <!-- /ko -->
+        <!-- ko ifnot: !!autocomplete -->
+        <input type="text" data-bind="disable: disabled,
+                          hasFocus: focused,
+                          textInput: value,
+                          attr: { tabindex: tabindex, type: type, name: name, id: id },
+                          valueUpdate: valueUpdate,
+                          event: events">
+        <!-- /ko -->
+    <!-- /ko -->
+</div>
+</script><script id="htpasswdEditor" type="text/html"><form class="HtpasswdEditor">
+    <div data-bind="foreach: htpasswdEntries">
+        <div class="HtpasswdEditor-row">
+            <span class="HtpasswdEditor-input" data-bind="css: { 'HtpasswdEditor-input-error': errUsername() }">
+                <in-place-editor params="placeholder: $component.errorMessages.labelUsername, value: username, disabled: existing"></in-place-editor>
+                <!-- ko if: errUsername() -->
+                <div class="HtpasswdEditor-error" data-bind="text: errUsername()"></div>
+                <!-- /ko -->
+            </span>
+            <span class="HtpasswdEditor-input" data-bind="css: { 'HtpasswdEditor-input-error': errPassword() }">
+                <in-place-editor params="placeholder: $component.errorMessages.labelPassword, value: password, disabled: existing, type: attrType"></in-place-editor>
+                <!-- ko if: errPassword() -->
+                <div class="HtpasswdEditor-error" data-bind="text: errPassword()"></div>
+                <!-- /ko -->
+            </span>
+            <!-- ko if: $index() !== ($parent.htpasswdEntries().length - 1) -->
+            <span class="removeEntry" data-bind="click: $parent.removeEntries">
+                <i role="icon" class="Icon cross"></i>
+            </span>
+            <!-- /ko -->
+            <!-- ko if: $index() === ($parent.htpasswdEntries().length - 1) -->
+            <span class="addEntry" data-bind="click: $parent.addEntries">
+                <i role="icon" class="Icon plus"></i>
+            </span>
+            <!-- /ko -->
+        </div>
+    </div>
+
+    <button class="HtpasswdEditor-save" data-bind="click: saveHtpasswdEntries">Save</button>
+</form>
+</script><script id="htaccessSnippet" type="text/html"><div class="HtaccessSnippet">
+    <div class="HtaccessSnippet-heading" data-i18n="HtaccessSnippet.headingText">Bestaand .htaccess-bestand gevonden</div>
+    <div class="HtaccessSnippet-description" data-i18n="HtaccessSnippet.descriptionText">Er is een bestaand .htaccess-bestand gevonden tijdens het beveiligen van de map. Om te voorkomen dat een aangepaste configuratie wordt gewijzigd, zullen we dit bestand niet wijzigen, neem daarom de volgende regels op in het bestand waarmee de gebruikersnamen en wachtwoorden worden geactiveerd:</div>
+    <pre class="HtaccessSnippet-code" data-bind="text: codeChunk"></pre>
+</div>
+</script><script id="filesNavBar" type="text/html"><div class="breadCrumbs">
+    <ul>
+       <!-- ko foreach: $root.state.currentBreadCrumbs -->
+            <li class="breadCrumb" data-bind="css: {active: $data === $root.state.currentDirectoryEntry()}, click: $root.goToDirectory.bind($root, $data, null), dropzone: {name: 'directoryEntry', dragEnter: $root.dragDirectoryEntriesEnter.bind($root), drop: $root.dropDirectoryEntries.bind($root)}">
+                <span data-bind="text: displayName"></span>
+            </li>
+            <li class="separator" data-bind="separator: $root.state.currentBreadCrumbs" data-i18n="">&nbsp;</li>
+        <!-- /ko -->
+    </ul>
+    <div class="breadCrumbShadow"></div>
+</div>
+</script><script id="filesSearchBar" type="text/html"><div class="one-toolbar-style search-bar">
+    <input type="text" class="icon-search search-bar--input one-search-field" data-i18n="attr: { placeholder: 'webfm.Search'}" placeholder="Zoeken" data-bind="
+        value: editedSearchString,
+        onKeyUp: {'enter': commitSearch.bind($data), 'esc': cancelSearch.bind($data), 'down': $parent.focusDirectoryEntries.bind($parent)}" tabindex="1">
+    <button data-bind="visible: showingSearchResults, tap: cancelSearch.bind($data)" class="no-border-button icon-remove"></button>
+</div>
+</script><script id="filesDirectoryEntries" type="text/html"><script type="text/html" id="directory-entry-drag-element-template">
+    <div class="drag-label" data-bind="text: inter.trQuantity(TR('webfm.actions.moveDirectoryEntries.MovingNItems', {one: 'Moving {0} item', other: 'Moving {0} items'}), $root.state.currentDrive().selection().length)"></div>
+</script>
+<div data-bind="template: {'if': $root.state.currentDrive() &amp;&amp; $root.state.hasCurrentDirectoryEntry(), data: $root.state.currentDrive()}">
+    <div data-bind="template: {name: $root.currentDataSet().viewTemplateName, data: $root.currentDataSet}"></div>
+    <!-- ko 'with': $root.currentDataSet -->
+        <!-- ko 'if': listItems().length === 0 -->
+            <!-- ko 'if': showingSearchResults() === true -->
+                <div class="centeredMessage"><h1 data-i18n="webfm.directoryEntries.NoFilesFound">Geen bestanden/mappen gevonden</h1></div>
+            <!-- /ko -->
+            <!-- ko 'if': showingSearchResults() === false -->
+                <div class="centeredMessage"><h1 data-i18n="webfm.directoryEntries.ThisFolderIsEmpty">Deze map is leeg</h1></div>
+            <!-- /ko -->
+        <!-- /ko -->
+        <div class="layout center solid loading-overlay" data-bind="visible: showLoadingOverlay">
+            <!-- ko 'if': showLoadingIndicator() -->
+                <div class="loader"></div>
+            <!-- /ko -->
+        </div>
+    <!-- /ko -->
+</div>
+</script><script id="filesDirectoryEntriesToolbar" type="text/html"><!-- ko 'if': $root.state.currentDirectoryEntry() -->
+    <!-- ko 'if': $root.state.currentDirectoryEntry().state.loadingData.done() &&  !($root.state.currentDirectoryEntry().parents() && $root.state.currentDirectoryEntry().parents().length === 1 && $root.state.currentDirectoryEntry().parents()[0].isMultipleWebRoot()) -->
+    <div class="dropdown-toggle selection-bar--item selection-bar--select-menu dropdown" data-bind="dropdownTemplate: {template: 'selectionMenu', openState: toolbar.select }" data-i18n="attr: {'data-title': 'webfm.toolbar.SetSelection'}" data-title="Specificeer keuze" data-tooltip-placement="right"><i class="icon-checkbox checked"></i><b class="caret"></b></div>
+    <!-- /ko -->
+    <script id="selectionMenu" type="text/html">
+        <ul class="popupDropdown">
+            <li class="dropdown-item" data-bind="click: selectNone"><span data-i18n="webfm.toolbar.SelectNone">Niets selecteren</span></li>
+            <li class="dropdown-item" data-bind="click: selectAll"><span data-i18n="webfm.toolbar.SelectAll">Alles selecteren</span></li>
+        </ul>
+    </script>
+
+    <div class="selection-bar--item selection-bar--view-buttons one-toolbar-item--rtl one-concatenate-buttons disable-on-small-screen">
+        <button class="one-button-style--toolbar spacer-right" data-i18n="attr: {'data-title': 'webfm.toolbar.Refresh'}" data-title="Verversen" data-bind="visible: !$root.state.currentDrive() || ($root.state.currentDirectoryEntry() &amp;&amp; !$root.state.currentDirectoryEntry().state.loadingData.busy()), click: $root.refresh.bind($root)"><i class="icon-refresh icon-large"></i></button><!--
+        --><!-- ko foreach: views --><button class="one-button-style--toolbar" data-bind="click: $parent.setView.bind($parent, $data), css: {active: $parent.currentView() === $data}, attr: {'data-title': displayName}"><span data-bind="attr: {'class': icon}"></span></button><!-- /ko -->
+    </div>
+
+    <!-- ko 'if': $root.state.currentDirectoryEntry().state.loadingData.done() -->
+    <div class="dropdown-toggle selection-bar--item selection-bar--sort-menu" data-bind="dropdownTemplate: { template: 'sortMenu', openState: toolbar.sort, positioning: { horizontal: 'inside-right' } }" data-i18n="attr: { 'data-title': 'webfm.toolbar.SortDirectoryEntries'}" data-title="Items sorteren">
+        <span data-bind="visible: sortKey() === 'basename'">
+            <span data-i18n="webfm.toolbar.SortByColon">Sorteren op:</span> <span data-i18n="webfm.toolbar.Name">Naam</span>
+        </span>
+        <span data-bind="visible: sortKey() === 'modifiedDate'">
+            <span data-i18n="webfm.toolbar.SortByColon">Sorteren op:</span> <span data-i18n="webfm.toolbar.Date">Datum</span>
+        </span>
+        <span data-bind="visible: sortKey() === 'size'">
+            <span data-i18n="webfm.toolbar.SortByColon">Sorteren op:</span> <span data-i18n="webfm.toolbar.Size">Grootte</span>
+        </span>
+        <b class="caret"></b>
+    </div>
+    <!-- /ko -->
+
+    <script id="sortMenu" type="text/html">
+        <ul class="popupDropdown">
+            <li class="dropdown-item" data-bind="click: setSortKey.bind($data, 'basename')">
+                <span data-i18n="webfm.toolbar.SortByColon">Sorteren op:</span> <span data-i18n="webfm.toolbar.Name">Naam</span><span data-bind="visible: sortKey() === 'basename'"> <i class="icon-checkmark"></i></span>
+            </li>
+            <li class="dropdown-item" data-bind="click: setSortKey.bind($data, 'modifiedDate')">
+                <span data-i18n="webfm.toolbar.SortByColon">Sorteren op:</span> <span data-i18n="webfm.toolbar.Date">Datum</span><span data-bind="visible: sortKey() === 'modifiedDate'"> <i class="icon-checkmark"></i></span>
+            </li>
+            <li class="dropdown-item" data-bind="click: setSortKey.bind($data, 'size')">
+                <span data-i18n="webfm.toolbar.SortByColon">Sorteren op:</span> <span data-i18n="webfm.toolbar.Size">Grootte</span><span data-bind="visible: sortKey() === 'size'"> <i class="icon-checkmark"></i></span>
+            </li>
+            <li class="dropdown-divider"></li>
+            <li class="dropdown-item" data-bind="click: setSortDirection.bind($data, 1)"><span data-i18n="webfm.toolbar.SortAscending">Oplopend</span><span data-bind="visible: sortDirection() === 1"> <i class="icon-checkmark"></i></span></li>
+            <li class="dropdown-item" data-bind="click: setSortDirection.bind($data, -1)"><span data-i18n="webfm.toolbar.SortDescending">Aflopend</span><span data-bind="visible: sortDirection() === -1"> <i class="icon-checkmark"></i></span></li>
+        </ul>
+    </script>
+<!-- /ko -->
+</script><script id="filesListView" type="text/html"><div class="layout top" data-bind="fileDropTarget: { drop: $root.upload.bind($root)}">
+    <!-- ko 'if': !$root.currentDataSet().showingSearchResults() && parentDirectory() -->
+    <div class="directory-entries-list" data-bind="with: parentDirectory">
+        <div class="list-item directory-entries--item directory-entries-list--item" data-bind="
+            event: {click: $root.openDirectoryEntry.bind($root, $data)}, clickBubble: false,
+            css: { focused: focused, busy: isBusy },
+            dropzone: { name: 'directoryEntry',
+                dragEnter: $root.dragDirectoryEntriesEnter.bind($root),
+                drop: $root.dropDirectoryEntries.bind($root)
+            }">
+                <div class="layout left">
+                    <div class="folderUp-icon mime-small mime-icon mime-httpd mime-folderUp">
+                    </div>
+                </div>
+                <div class="focus-indicator"></div>
+                <div class="layout movelink-one-directoryUp">
+                    <a class="directory-up" unselectable="on" data-i18n="webfm.directoryEntries.upOneDirectory">Een map hoger</a>
+                </div>
+        <div class="bottom"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+    <!-- ko 'if': !$root.currentDataSet().showingSearchResults() && !parentDirectory() -->
+    <div class="directory-entries-list directoryUp-button">
+        <div class="list-item directory-entries--item directory-entries-list--item">
+            <div class="layout left">
+                <div class="folderUp-icon mime-small mime-icon mime-httpd mime-folderUp">
+                </div>
+            </div>
+            <div class="focus-indicator"></div>
+            <div class="layout movelink-one-directoryUp">
+                <a class="directory-up" unselectable="on" data-i18n="webfm.directoryEntries.upOneDirectory">Een map hoger</a>
+            </div>
+        </div>
+    </div>
+    <!-- /ko -->
+</div>
+
+<!-- ko 'if': !showingWebRoots() -->  
+    <div class="layout center directory-entries gridViewScrollArea" data-bind="css: {'directory-entries--moveDown': !$root.currentDataSet().showingSearchResults()}, fileDropTarget: { drop: $root.upload.bind($root)}">
+        <div class="directory-entries-list selectionArea" tabindex="1" data-bind="
+            list: { data: listItems, visibleIndex: focusedIndex, scrollable: '.gridViewScrollArea' },
+            selection: { data: listItems, selection: $parent.selection, anchor: $parent.anchor, focused: $parent.focusedItem, toggleClass: 'checkbutton' },
+            scrollableOnDragOver: 'directoryEntry',
+            onKeyUp: {
+                'enter': $root.editOrOpenDirectoryEntry.bind($root, $parent.focusedItem()),
+                'backspace': $root.goToParentDirectory.bind($root),
+                'del': $root.deleteDirectoryEntries.bind($root, $parent.selection())
+            },
+            afterRender: $root.setupDirectoryEntries.bind($root)">
+            <div class="list-item directory-entries--item directory-entries-list--item" data-bind="
+            css: { selected: selected, focused: focused, dragging: dragging, busy: isBusy, flash: flash, storingOnServer: state.storingOnServer.busy },
+            dragzone: { name: 'directoryEntry', element: 'directory-entry-drag-element-template',
+                dragStart: $root.dragDirectoryEntriesStart.bind($root),
+                dragEnd: $root.dragDirectoryEntriesEnd.bind($root)
+            },
+            dropzone: { name: 'directoryEntry',
+                dragEnter: $root.dragDirectoryEntriesEnter.bind($root),
+                drop: $root.dropDirectoryEntries.bind($root)
+            },
+            fileDropTarget: { drop: $root.upload.bind($root, $data)},
+            eventCanceller: {cancel: 'input,button'}">
+                <!-- ko 'if': canShowThumbnail() -->
+                    <div data-bind="lightbox: {dataSource: $root.setupLightboxBinding.bind($root), toggle: showLightbox, closePlacement: 'top', hideBarsDelay: 0, beforeOpen: $root.state.signals.lightboxOpened.dispatch, afterClose: $root.state.signals.lightboxClosed.dispatch}"></div>
+                <!-- /ko -->
+                    <div class="layout left">
+                    <!-- ko 'if': canShowThumbnail() -->
+                        <div class="directory-entry-icon withThumb">
+                            <img data-bind="loadImage: {onError: $root.cannotLoadThumbnail.bind($root, $data), src: $root.backend.getHref.croppedThumbnail($data, {width: 30, height: 26})}">
+                        </div>
+                    <!-- /ko -->
+                    <!-- ko 'if': !canShowThumbnail() -->
+                        <div data-bind="attr: { 'class': 'directory-entry-icon mime-small ' + iconClass() }">
+                            <span data-bind="text: extensionDisplay" unselectable="on"></span>
+                        </div>
+                    <!-- /ko -->
+                    </div>
+                <div class="focus-indicator"></div>
+                <div class="draghandle" data-i18n="attr: {'data-title': 'webfm.directoryEntries.DragToFolder'}" data-title="Sleep naar map" data-tooltip-placement="right"></div>
+                <button type="button" class="checkbutton" tabindex="-1" autocomplete="off" value="" hidefocus="true" role="checkbox">
+                    <i class="check" unselectable="on"></i>
+                </button>
+                <div class="layout center">
+                    <div data-bind="'if': !state.renaming.busy()">
+                        <a class="displayName" data-bind="text: displayName, event: {click: $root.editOrOpenDirectoryEntry.bind($root, $data)}, clickBubble: false" unselectable="on"></a>
+                        <div data-bind="text: displaySize" class="size" unselectable="on"></div>
+                    </div>
+                    <div class="renameContainer" data-bind="'if': state.renaming.busy">
+                    <input type="text" data-bind=" event: { touchcancle: $root.keepInputBusy.bind($root, $data) }, hasfocus: state.renaming.busy, selectOnFocus: /^\.\.?$|^\.[^\.]*$|^.*(?=\.)|^[^\.]*/, valueUpdate: 'onkeyup', value: renamedDisplayName, onKeyUp: {'enter': $root.finishRename.bind($root), 'esc': $root.cancelRename.bind($root)}, autoExpand: renamedDisplayName">
+                        <span class="invalidNameWarning" data-bind="visible: state.renaming.busy &amp;&amp; !renamedDisplayName.isValid()">
+                            <span data-bind="visible: renamedDisplayName.isNotPresent()" data-i18n="webfm.directoryEntries.NameCannotBeEmpty" unselectable="on">Naamveld mag niet leeg zijn</span>
+                            <span data-bind="visible: renamedDisplayName() === '.'" data-i18n="webfm.directoryEntries.NameCannotBeDot" unselectable="on">Naam kan geen . zijn</span>
+                            <span data-bind="visible: renamedDisplayName() === '..'" data-i18n="webfm.directoryEntries.NameCannotBeDotDot" unselectable="on">Naam kan geen .. zijn</span>
+                            <span data-bind="visible: renamedDisplayName.isPresent() &amp;&amp; !/^\.\.?$/.test(renamedDisplayName())" data-i18n="webfm.directoryEntries.NameCannotContainSlashOrBackslashOrBeLongerThan255Characters">Naam mag geen / of \ bevatten en mag niet langer dan 255 tekens zijn.</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="layout right">
+                    <span data-bind="formatDate: {value: modifiedDate, formatId: 'Hm/shortDate', tooltipFormatId: 'shortDateTime'}" class="date" unselectable="on"></span>
+                </div>
+                <!-- ko 'if': indicateProgress -->
+                    <div class="progress" data-bind="style: {width: percentComplete() ? percentComplete() + '%' : '0%'}">
+                    </div>
+                <!-- /ko -->
+                <div class="bottom"></div>
+            </div>
+        </div>
+    </div>
+<!-- /ko -->
+
+
+<!-- ko 'if': showingWebRoots() -->
+    <div class="layout center directory-entries gridViewScrollArea" data-bind="css: {'directory-entries--moveDown': !$root.currentDataSet().showingSearchResults()}">
+        <div class="directory-entries-list selectionArea" tabindex="1" data-bind="
+            list: { data: listItems, visibleIndex: focusedIndex, scrollable: '.gridViewScrollArea' },
+            scrollableOnDragOver: 'directoryEntry',
+            onKeyUp: {
+                'enter': $root.editOrOpenDirectoryEntry.bind($root, $parent.focusedItem()),
+                'backspace': $root.goToParentDirectory.bind($root)
+            },
+            afterRender: $root.setupDirectoryEntries.bind($root)">
+            <div class="list-item directory-entries--item directory-entries-list--item" data-bind="
+            css: { selected: selected, focused: focused, dragging: dragging, busy: isBusy, flash: flash, storingOnServer: state.storingOnServer.busy },
+            eventCanceller: {cancel: 'input,button'}">
+                <!-- ko 'if': canShowThumbnail() -->
+                    <div data-bind="lightbox: {dataSource: $root.setupLightboxBinding.bind($root), toggle: showLightbox, closePlacement: 'top', hideBarsDelay: 0, beforeOpen: $root.state.signals.lightboxOpened.dispatch, afterClose: $root.state.signals.lightboxClosed.dispatch}"></div>
+                <!-- /ko -->
+                    <div class="layout left">
+                    <!-- ko 'if': canShowThumbnail() -->
+                        <div class="directory-entry-icon withThumb">
+                            <img data-bind="loadImage: {onError: $root.cannotLoadThumbnail.bind($root, $data), src: $root.backend.getHref.croppedThumbnail($data, {width: 30, height: 26})}">
+                        </div>
+                    <!-- /ko -->
+                    <!-- ko 'if': !canShowThumbnail() -->
+                        <div data-bind="attr: { 'class': 'directory-entry-icon mime-small ' + iconClass() }">
+                            <span data-bind="text: extensionDisplay" unselectable="on"></span>
+                        </div>
+                    <!-- /ko -->
+                    </div>
+                <div class="focus-indicator"></div>
+                <div class="layout center">
+                    <div data-bind="'if': !state.renaming.busy()">
+                        <a class="displayName" data-bind="text: displayName, event: {click: $root.editOrOpenDirectoryEntry.bind($root, $data)}, clickBubble: false" unselectable="on"></a>
+                        <div data-bind="text: displaySize" class="size" unselectable="on"></div>
+                        <!-- ko 'if': isPrimaryWebRoot() -->
+                                <div class="primaryWebRoot" data-i18n="webfm.webroot.PrimaryWebRoot">Website (Primary)</div>
+                        <!-- /ko -->
+                    </div>
+                </div>
+                <div class="layout right">
+                    <span data-bind="formatDate: {value: modifiedDate, formatId: 'Hm/shortDate', tooltipFormatId: 'shortDateTime'}" class="date" unselectable="on"></span>
+                </div>
+                <!-- ko 'if': indicateProgress -->
+                    <div class="progress" data-bind="style: {width: percentComplete() ? percentComplete() + '%' : '0%'}">
+                    </div>
+                <!-- /ko -->
+                <div class="bottom"></div>
+            </div>
+        </div>
+    </div>
+<!-- /ko --></script><script id="filesGalleryView" type="text/html"><div class="layout top" data-bind="fileDropTarget: { drop: $root.upload.bind($root)}">
+    <!-- ko 'if': parentDirectory && !$root.currentDataSet().showingSearchResults() -->
+    <div class="directory-entries directory-entries-list" data-bind="with: parentDirectory">
+        <div class="list-item directory-entries--item directory-entries-list--item" data-bind="
+            event: {click: $root.openDirectoryEntry.bind($root, $data)}, clickBubble: false,
+            css: { focused: focused, busy: isBusy },
+            dropzone: { name: 'directoryEntry',
+                dragEnter: $root.dragDirectoryEntriesEnter.bind($root),
+                drop: $root.dropDirectoryEntries.bind($root)
+            }">
+                <div class="layout left">
+                    <div class="folderUp-icon mime-small mime-icon mime-httpd mime-folderUp">
+                    </div>
+                </div>
+                <div class="focus-indicator"></div>
+                <div class="layout movelink-one-directoryUp">
+                    <a class="directory-up" unselectable="on" data-i18n="webfm.directoryEntries.upOneDirectory">Een map hoger</a>
+                </div>
+        </div>
+    </div>
+    <div class="galleryViewDivider directoryUpDivider"></div>
+    <!-- /ko -->
+    <!-- ko 'if': !$root.currentDataSet().showingSearchResults() && !parentDirectory() -->
+    <div class="directory-entries-list directoryUp-button">
+        <div class="list-item directory-entries--item directory-entries-list--item">
+                <div class="layout left">
+                    <div class="folderUp-icon mime-small mime-icon mime-httpd mime-folderUp">
+                    </div>
+                </div>
+                <div class="focus-indicator"></div>
+                <div class="layout movelink-one-directoryUp">
+                    <a class="directory-up" unselectable="on" data-i18n="webfm.directoryEntries.upOneDirectory">Een map hoger</a>
+                </div>
+        </div>
+    </div>
+    <div class="galleryViewDivider directoryUpDivider"></div>
+    <!-- /ko -->
+</div>
+
+<!-- ko 'if': !showingWebRoots() -->
+    <div class="layout center selectionArea gridViewScrollArea" tabindex="1" data-bind="css: {'directory-entries--moveDown': !$root.currentDataSet().showingSearchResults()}, fileDropTarget: { drop: $root.upload.bind($root)},
+        selection: { data: listItems, selection: $parent.selection, anchor: $parent.anchor, focused: $parent.focusedItem, mode: 'gridMulti', direction: 'both', toggleClass: 'checkbutton' },
+        fileDropTarget: { drop: $root.upload.bind($root)},
+        scrollableOnDragOver: 'directoryEntry',
+        onKeyUp: {
+            'enter': $root.editOrOpenDirectoryEntry.bind($root, $parent.focusedItem()),
+            'backspace': $root.goToParentDirectory.bind($root),
+            'del': $root.deleteDirectoryEntries.bind($root, $parent.selection())
+        }
+        ">
+        <div class="directory-entries directory-entries-gallery directory-entries-gallery-images" data-bind="
+            list: { data: imageListItems, visibleIndex: imageListItemsFocusedIndex, grid: true, scrollable: '.gridViewScrollArea' },
+            afterRender: $root.setupDirectoryEntries.bind($root)">
+            <div class="grid-item directory-entries--item directory-entries-gallery--item directory-entries-gallery-images--item" data-bind="
+            css: { selected: selected, focused: focused, dragging: dragging, busy: isBusy, storingOnServer: state.storingOnServer.busy },
+            dragzone: { name: 'directoryEntry', element: 'directory-entry-drag-element-template',
+                dragStart: $root.dragDirectoryEntriesStart.bind($root),
+                dragEnd: $root.dragDirectoryEntriesEnd.bind($root)
+            },
+            dropzone: { name: 'directoryEntry',
+                dragEnter: $root.dragDirectoryEntriesEnter.bind($root),
+                drop: $root.dropDirectoryEntries.bind($root)
+            },
+            elementFor: elementFor,
+            eventCanceller: {cancel: 'input,button'}">
+                <div class="focus-indicator"></div>
+                <div class="checkbutton">
+                    <i class="check" data-i18n="attr: {'data-title': 'webfm.directoryEntries.SelectDeselect'}" data-title="Selecteren/Deselecteren" data-tooltip-placement="right" unselectable="on"></i>
+                </div>
+                <!-- ko 'if': canShowThumbnail() -->
+                    <div data-bind="lightbox: {dataSource: $root.setupLightboxBinding.bind($root), toggle: showLightbox, closePlacement: 'top', hideBarsDelay: 0, beforeOpen: $root.state.signals.lightboxOpened.dispatch, afterClose: $root.state.signals.lightboxClosed.dispatch}"></div>
+                <!-- /ko -->
+                <div class="layout center imageContainer">
+                    <!-- ko 'if': canShowThumbnail() -->
+                        <div class="directory-entry-icon">
+                            <img data-bind="loadImage: {onError: $root.cannotLoadThumbnail.bind($root, $data), src: $root.backend.getHref.croppedThumbnail($data, {width: 288, height: 288})}">
+                        </div>
+                    <!-- /ko -->
+                    <!-- ko 'if': !canShowThumbnail() -->
+                        <div data-bind="attr: { 'class': 'directory-entry-icon mime-gallery ' + iconClass() }">
+                            <span data-bind="text: extensionDisplay" unselectable="on"></span>
+                        </div>
+                    <!-- /ko -->
+                </div>
+                <div class="layout center borderOverlay"></div>
+                <div class="layout center backgroundOverlay" data-bind="css: {flash: flash}">
+                    <!-- ko 'if': indicateProgress -->
+                        <div class="progress" data-bind="style: {width: percentComplete() ? percentComplete() + '%' : '0%'}"></div>
+                    <!-- /ko -->
+                </div>
+                <div class="layout center renameOverlay" data-bind="'if': state.renaming.busy">
+                    <div class="layout bottom">
+                        <input type="text" data-bind="hasfocus: state.renaming.busy, selectOnFocus: /^\.\.?$|^\.[^\.]*$|^.*(?=\.)|^[^\.]*/, valueUpdate: 'onkeyup', value: renamedDisplayName, onKeyUp: {'enter': $root.finishRename.bind($root), 'esc': $root.cancelRename.bind($root)}">
+                        <div class="invalidNameWarning" data-bind="visible: state.renaming.busy &amp;&amp; !renamedDisplayName.isValid()">
+                            <span data-bind="visible: renamedDisplayName.isNotPresent()" data-i18n="webfm.directoryEntries.NameCannotBeEmpty" unselectable="on">Naamveld mag niet leeg zijn</span>
+                            <span data-bind="visible: renamedDisplayName() === '.'" data-i18n="webfm.directoryEntries.NameCannotBeDot" unselectable="on">Naam kan geen . zijn</span>
+                            <span data-bind="visible: renamedDisplayName() === '..'" data-i18n="webfm.directoryEntries.NameCannotBeDotDot" unselectable="on">Naam kan geen .. zijn</span>
+                            <span data-bind="visible: renamedDisplayName.isPresent() &amp;&amp; !/^\.\.?$/.test(renamedDisplayName())" data-i18n="webfm.directoryEntries.NameCannotContainSlashOrBackslashOrBeLongerThan255Characters">Naam mag geen / of \ bevatten en mag niet langer dan 255 tekens zijn.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="galleryViewDivider" data-bind="visible: hasImagesAndOtherEntries"></div>
+        <div class="directory-entries directory-entries-gallery directory-entries-gallery-others" data-bind="
+            list: { data: nonImageListItems, visibleIndex: nonImageListItemsFocusedIndex, grid: true, scrollable: '.gridViewScrollArea' },
+            afterRender: $root.setupDirectoryEntries.bind($root)">
+            <div class="layout grid-item directory-entries--item directory-entries-gallery--item directory-entries-gallery-others--item" data-bind="
+            css: { selected: selected, focused: focused, dragging: dragging, busy: isBusy, storingOnServer: state.storingOnServer.busy },
+            dragzone: { name: 'directoryEntry', element: 'directory-entry-drag-element-template',
+                dragStart: $root.dragDirectoryEntriesStart.bind($root),
+                dragEnd: $root.dragDirectoryEntriesEnd.bind($root)
+            },
+            dropzone: { name: 'directoryEntry',
+                dragEnter: $root.dragDirectoryEntriesEnter.bind($root),
+                drop: $root.dropDirectoryEntries.bind($root)
+            },
+            fileDropTarget: { drop: $root.upload.bind($root, $data)},
+            elementFor: elementFor,
+            eventCanceller: {cancel: 'input,button'}">
+                <div class="layout grid-item-background">
+                    <div class="layout center" data-bind="css: {flash: flash}">
+                        <!-- ko 'if': indicateProgress -->
+                            <div class="progress" data-bind="style: {width: percentComplete() ? percentComplete() + '%' : '0%'}"></div>
+                        <!-- /ko -->
+                    </div>
+                    <div class="layout bottom"></div>
+                </div>
+                <div class="layout grid-item-border">
+                    <div class="layout grid-item-content">
+                        <!-- ko 'if': canShowThumbnail() -->
+                            <div data-bind="lightbox: {dataSource: $root.setupLightboxBinding.bind($root), toggle: showLightbox, closePlacement: 'top', hideBarsDelay: 0, beforeOpen: $root.state.signals.lightboxOpened.dispatch, afterClose: $root.state.signals.lightboxClosed.dispatch}"></div>
+                        <!-- /ko -->
+                        <div class="layout center detailsPane">
+                            <div class="layout left">
+                                <div data-bind="attr: { 'class': 'directory-entry-icon mime-gallery ' + iconClass() }">
+                                    <span data-bind="text: extensionDisplay" unselectable="on"></span>
+                                </div>
+                            </div>
+                            <div class="layout center">
+                                <dl class="one-definition-list">
+                                    <dt data-i18n="webfm.actionPanel.DateColon">Datum:</dt>
+                                    <dd data-bind="formatDate: {value: modifiedDate, formatId: 'shortDate'}"></dd>
+                                    <dt data-i18n="webfm.actionPanel.TimeColon">Tijd:</dt>
+                                    <dd data-bind="formatDate: {value: modifiedDate, formatId: 'mediumTime'}"></dd>
+                                    <!-- ko 'if': displaySize() -->
+                                        <dt data-i18n="webfm.actionPanel.SizeColon">Grootte:</dt>
+                                        <dd data-bind="text: displaySize"></dd>
+                                    <!-- /ko -->
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="layout bottom">
+                            <div class="nameArea">
+                                <div data-bind="'if': !state.renaming.busy()">
+                                    <a class="displayName" data-bind="text: displayName, event: {click: $root.editOrOpenDirectoryEntry.bind($root, $data)}, clickBubble: false" unselectable="on"></a>
+                                </div>
+                                <div data-bind="'if': state.renaming.busy">
+                                    <input type="text" data-bind="hasfocus: state.renaming.busy, selectOnFocus: /^\.\.?$|^\.[^\.]*$|^.*(?=\.)|^[^\.]*/, valueUpdate: 'onkeyup', value: renamedDisplayName, onKeyUp: {'enter': $root.finishRename.bind($root), 'esc': $root.cancelRename.bind($root)}">
+                                    <div class="invalidNameWarning" data-bind="visible: state.renaming.busy &amp;&amp; !renamedDisplayName.isValid()">
+                                        <span data-bind="visible: renamedDisplayName.isNotPresent()" data-i18n="webfm.directoryEntries.NameCannotBeEmpty" unselectable="on">Naamveld mag niet leeg zijn</span>
+                                        <span data-bind="visible: renamedDisplayName() === '.'" data-i18n="webfm.directoryEntries.NameCannotBeDot" unselectable="on">Naam kan geen . zijn</span>
+                                        <span data-bind="visible: renamedDisplayName() === '..'" data-i18n="webfm.directoryEntries.NameCannotBeDotDot" unselectable="on">Naam kan geen .. zijn</span>
+                                        <span data-bind="visible: renamedDisplayName.isPresent() &amp;&amp; !/^\.\.?$/.test(renamedDisplayName())" data-i18n="webfm.directoryEntries.NameCannotContainSlashOrBackslashOrBeLongerThan255Characters">Naam mag geen / of \ bevatten en mag niet langer dan 255 tekens zijn.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="focus-indicator"></div>
+                <div class="checkbutton">
+                    <i class="check" data-i18n="attr: {'data-title': 'webfm.directoryEntries.SelectDeselect'}" data-title="Selecteren/Deselecteren" data-tooltip-placement="right" unselectable="on"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- /ko -->
+
+<!-- ko 'if': showingWebRoots() -->
+<div class="layout center selectionArea gridViewScrollArea" tabindex="1" data-bind="css: {'directory-entries--moveDown': !$root.currentDataSet().showingSearchResults()},
+        scrollableOnDragOver: 'directoryEntry',
+        onKeyUp: {
+            'enter': $root.editOrOpenDirectoryEntry.bind($root, $parent.focusedItem()),
+            'backspace': $root.goToParentDirectory.bind($root),
+            'del': $root.deleteDirectoryEntries.bind($root, $parent.selection())
+        }
+        ">
+        <div class="directory-entries directory-entries-gallery directory-entries-gallery-images" data-bind="
+            list: { data: imageListItems, visibleIndex: imageListItemsFocusedIndex, grid: true, scrollable: '.gridViewScrollArea' },
+            afterRender: $root.setupDirectoryEntries.bind($root)">
+            <div class="grid-item directory-entries--item directory-entries-gallery--item directory-entries-gallery-images--item" data-bind="
+            css: { focused: focused, dragging: dragging, busy: isBusy, storingOnServer: state.storingOnServer.busy },
+            elementFor: elementFor,
+            eventCanceller: {cancel: 'input,button'}">
+                <div class="focus-indicator"></div>
+                <div class="checkbutton">
+                    <i class="check" data-i18n="attr: {'data-title': 'webfm.directoryEntries.SelectDeselect'}" data-title="Selecteren/Deselecteren" data-tooltip-placement="right" unselectable="on"></i>
+                </div>
+                <!-- ko 'if': canShowThumbnail() -->
+                    <div data-bind="lightbox: {dataSource: $root.setupLightboxBinding.bind($root), toggle: showLightbox, closePlacement: 'top', hideBarsDelay: 0, beforeOpen: $root.state.signals.lightboxOpened.dispatch, afterClose: $root.state.signals.lightboxClosed.dispatch}"></div>
+                <!-- /ko -->
+                <div class="layout center imageContainer">
+                    <!-- ko 'if': canShowThumbnail() -->
+                        <div class="directory-entry-icon">
+                            <img data-bind="loadImage: {onError: $root.cannotLoadThumbnail.bind($root, $data), src: $root.backend.getHref.croppedThumbnail($data, {width: 288, height: 288})}">
+                        </div>
+                    <!-- /ko -->
+                    <!-- ko 'if': !canShowThumbnail() -->
+                        <div data-bind="attr: { 'class': 'directory-entry-icon mime-gallery ' + iconClass() }">
+                            <span data-bind="text: extensionDisplay" unselectable="on"></span>
+                        </div>
+                    <!-- /ko -->
+                </div>
+                <div class="layout center borderOverlay"></div>
+                <div class="layout center backgroundOverlay" data-bind="css: {flash: flash}">
+                    <!-- ko 'if': indicateProgress -->
+                        <div class="progress" data-bind="style: {width: percentComplete() ? percentComplete() + '%' : '0%'}"></div>
+                    <!-- /ko -->
+                </div>
+                <div class="layout center renameOverlay" data-bind="'if': state.renaming.busy">
+                    <div class="layout bottom">
+                        <input type="text" data-bind="hasfocus: state.renaming.busy, selectOnFocus: /^\.\.?$|^\.[^\.]*$|^.*(?=\.)|^[^\.]*/, valueUpdate: 'onkeyup', value: renamedDisplayName, onKeyUp: {'enter': $root.finishRename.bind($root), 'esc': $root.cancelRename.bind($root)}">
+                        <div class="invalidNameWarning" data-bind="visible: state.renaming.busy &amp;&amp; !renamedDisplayName.isValid()">
+                            <span data-bind="visible: renamedDisplayName.isNotPresent()" data-i18n="webfm.directoryEntries.NameCannotBeEmpty" unselectable="on">Naamveld mag niet leeg zijn</span>
+                            <span data-bind="visible: renamedDisplayName() === '.'" data-i18n="webfm.directoryEntries.NameCannotBeDot" unselectable="on">Naam kan geen . zijn</span>
+                            <span data-bind="visible: renamedDisplayName() === '..'" data-i18n="webfm.directoryEntries.NameCannotBeDotDot" unselectable="on">Naam kan geen .. zijn</span>
+                            <span data-bind="visible: renamedDisplayName.isPresent() &amp;&amp; !/^\.\.?$/.test(renamedDisplayName())" data-i18n="webfm.directoryEntries.NameCannotContainSlashOrBackslashOrBeLongerThan255Characters">Naam mag geen / of \ bevatten en mag niet langer dan 255 tekens zijn.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="galleryViewDivider" data-bind="visible: hasImagesAndOtherEntries"></div>
+        <div class="directory-entries directory-entries-gallery directory-entries-gallery-others" data-bind="
+            list: { data: nonImageListItems, visibleIndex: nonImageListItemsFocusedIndex, grid: true, scrollable: '.gridViewScrollArea' },
+            afterRender: $root.setupDirectoryEntries.bind($root)">
+            <div class="layout grid-item directory-entries--item directory-entries-gallery--item directory-entries-gallery-others--item" data-bind="
+            css: { selected: selected, focused: focused, dragging: dragging, busy: isBusy, storingOnServer: state.storingOnServer.busy },
+            elementFor: elementFor,
+            eventCanceller: {cancel: 'input,button'}">
+                <div class="layout grid-item-background">
+                    <div class="layout center" data-bind="css: {flash: flash}">
+                        <!-- ko 'if': indicateProgress -->
+                            <div class="progress" data-bind="style: {width: percentComplete() ? percentComplete() + '%' : '0%'}"></div>
+                        <!-- /ko -->
+                    </div>
+                    <div class="layout bottom"></div>
+                </div>
+                <div class="layout grid-item-border">
+                    <div class="layout grid-item-content">
+                        <!-- ko 'if': canShowThumbnail() -->
+                            <div data-bind="lightbox: {dataSource: $root.setupLightboxBinding.bind($root), toggle: showLightbox, closePlacement: 'top', hideBarsDelay: 0, beforeOpen: $root.state.signals.lightboxOpened.dispatch, afterClose: $root.state.signals.lightboxClosed.dispatch}"></div>
+                        <!-- /ko -->
+                        <div class="layout center detailsPane">
+                            <div class="layout left">
+                                <div data-bind="attr: { 'class': 'directory-entry-icon mime-gallery ' + iconClass() }">
+                                    <span data-bind="text: extensionDisplay" unselectable="on"></span>
+                                </div>
+                            </div>
+                            <div class="layout center">
+                                <dl class="one-definition-list">
+                                    <dt data-i18n="webfm.actionPanel.DateColon">Datum:</dt>
+                                    <dd data-bind="formatDate: {value: modifiedDate, formatId: 'shortDate'}"></dd>
+
+                                    <!-- ko 'if': displaySize() -->
+                                        <dt data-i18n="webfm.actionPanel.SizeColon">Grootte:</dt>
+                                        <dd data-bind="text: displaySize"></dd>
+                                    <!-- /ko -->
+
+                                    <!-- ko 'if': isPrimaryWebRoot() -->
+                                    <dt class="primaryWebRoot" data-i18n="webfm.webroot.PrimaryWebRoot">Website (Primary)</dt>
+                                    <!-- /ko -->
+                                </dl>
+                            </div>
+                            
+                        </div>
+                        <div class="layout bottom">
+                            <div class="nameArea">
+                                <div data-bind="'if': !state.renaming.busy()">
+                                    <a class="displayName" data-bind="text: displayName, event: {click: $root.editOrOpenDirectoryEntry.bind($root, $data)}, clickBubble: false" unselectable="on"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="focus-indicator"></div>
+            </div>
+        </div>
+    </div>
+<!-- /ko --></script><script id="filesToolbar" type="text/html"><div class="layout main-toolbar one-toolbar-style">
+    <div class="toolbar-left">
+        <div class="one-toolbar-item--primary">
+            <div class="one-button-style--primary one-upload-files" data-bind="event: {mouseover: function($data, event){ $root.disableTooltip($data, event) }}, activateFileInput: {'handler': $root.upload.bind($root), 'title': false, 'multiple': $root.isMultipleUploadSupported(), 'disabled': !$root.canAddDirectoryEntry()}, css: {'disabled': !$root.canAddDirectoryEntry()}">
+                <span class="icon icon-upload-white upload-button-icon"></span>
+                <span class="upload-button-label one-button-style--label" data-i18n="webfm.toolbar.Upload">Uploaden</span>
+            </div><!--
+            --><div class="one-button-separator--primary" data-bind="visible: $root.canAddDirectoryEntry"></div><!--
+            --><button class="one-button-style--primary dropdown-anchor conjoined-left" data-i18n="attr: {'data-title': 'webfm.toolbar.Create'}" data-title="Aanmaken" data-bind="dropdownTemplate: { template: 'createEntryMenu', openState: $root.toolbar.newDirectoryEntry, positioning: { horizontal: 'inside-right' } }, visible: $root.canAddDirectoryEntry">
+                <i class="icon-dropdown-white"></i>
+            </button>
+            <script type="text/html" id="createEntryMenu">
+                <ul class="popupDropdown primary-menu" data-bind="with: $root.state.currentDirectoryEntry">
+                    <li class="dropdown-item" data-bind="click: $root.newFolder.bind($root, $data)"><span data-i18n="webfm.toolbar.NewFolder">Nieuwe map</span></li>
+                    <li class="dropdown-item" data-bind="click: $root.newFile.bind($root, $data, '.html')"><span data-i18n="webfm.toolbar.NewHtmlFile">Nieuw HTML-bestand</span></li>
+                    <li class="dropdown-item" data-bind="click: $root.newFile.bind($root, $data, '.txt')"><span data-i18n="webfm.toolbar.NewTxtFile">Nieuw tekstbestand</span></li>
+                    <li class="dropdown-item" data-bind="click: $root.newFile.bind($root, $data, '')"><span data-i18n="webfm.toolbar.NewEmptyFile">Nieuw ander bestand</span></li>
+                    <!-- ko if: $root.state.featureFlags.directorySecurity -->
+                    <li class="dropdown-item" data-bind="click: $root.createDirectorySecurity.bind($root, $data, true)"><span data-i18n="webfm.toolbar.SecureDirectory">Beveiligde map</span></li>
+                    <!-- /ko -->
+                </ul>
+            </script>
+        </div>
+    </div>
+    <div class="navigationBar disable-on-small-screen" data-bind="template: 'filesNavBar'"></div>
+</div>
+</script><script id="filesSidebar" type="text/html"><!-- ko 'with': $root.state.currentDrive -->
+    <div class="tile">
+        <div class="tileContent">
+            <div class="itemHeader">
+                <!-- ko 'if': selection().length === 1 -->
+                    <!-- ko 'with': selection()[0] -->
+                        <div class="layout left">
+                            <div data-bind="attr: { 'class': iconClass() + ' header-icon mime-actionPanel' }">
+                                <span data-bind="text: extensionDisplay"></span>
+                            </div>
+                        </div>
+                        <div class="layout center">
+                            <h1><span data-bind="text: displayName"></span></h1>
+
+                            <!-- ko 'if': $root.backend.getHref.displayURL($data) !== "" -->
+                                <h3><span data-i18n="webfm.actionPanel.FullPathColon">Volledig pad:</span> <a data-bind="text: $root.backend.getHref.displayURL($data), attr: { href: $root.backend.getHref.viewFile($data), 'data-title': $root.backend.getHref.viewFile($data) }" target="_blank"></a></h3>
+                            <!-- /ko -->
+
+                            <h3><!--
+                            --><span class="displayModifiedDate" data-bind="formatDate: {value: modifiedDate, formatId: 'Hm/shortDate', tooltipFormatId: 'shortDateTime'}"></span><!--
+                                --><!-- ko if: type === 'file' -->
+                                <span class="displaySizeOfItem" data-bind="text: displaySize"></span><!-- /ko --><!--
+                                --><!-- ko if: type === 'directory' --><span data-bind="text: directoryEntries().length > 0 ?
+                                ' | ' + inter.trQuantity(TR('webfm.actionPanel.XItems', {
+                                    one: '{0} item',
+                                    other: '{0} items'
+                                }), directoryEntries().length) :
+                                ''"></span><!-- /ko --><!--
+                            --></h3>
+                        </div>
+                    <!-- /ko -->
+                <!-- /ko -->
+                <!-- ko 'if': selection().length !== 1 -->
+                    <!-- ko 'with': currentDirectoryEntry() -->
+                        <div class="layout left">
+                            <div data-bind="css: iconClass() + ' header-icon mime-actionPanel'"></div>
+                        </div>
+                        <div class="layout center">
+                            <h1 data-bind="text: displayName"></h1>
+                            <h3><!--
+                                --><span data-bind="text: $root.currentDataSet().search() &amp;&amp; $root.currentDataSet().search().isReady() ?
+                                    inter.trQuantity(TR('webfm.actionPanel.XItems', {
+                                        one: '{0} item',
+                                        other: '{0} items'
+                                    }), $root.currentDataSet().listItems().length) :
+                                    ''"></span><!--
+                            --></h3>
+                        </div>
+                    <!-- /ko -->
+                <!-- /ko -->
+            </div>
+            <div class="thumbContainer disable-on-small-screen">
+                <!-- ko 'if': selection().length === 1 -->
+                    <!-- ko 'with': selection()[0] -->
+                        <!-- ko if: $root.currentView().actionPanelHasThumbnail() && canShowThumbnail() -->
+                        <a data-bind="lightbox: {dataSource: $root.setupLightboxBinding.bind($root), closePlacement: 'top', hideBarsDelay: 0,
+                        beforeOpen: $root.state.signals.lightboxOpened.dispatch, afterClose: $root.state.signals.lightboxClosed.dispatch}">
+                            <img data-bind="loadImage: {onError: $root.cannotLoadThumbnail.bind($root, $data), src: $root.backend.getHref.thumbnail($data, { width: $root.layout.contentPanel.width() - 56, height: $root.layout.contentPanel.height() - 180 }) }, style: {maxWidth: ($root.layout.contentPanel.width() - 56) + 'px', maxHeight: ($root.layout.contentPanel.height() - 180) + 'px'}">
+                        </a>
+                        <!-- /ko -->
+                        <!-- ko ifnot: $root.currentView().actionPanelHasThumbnail() && canShowThumbnail() -->
+                        <div data-bind="css: iconClass() + ' header-icon mime-preview thumbnailoid', click: $root.editOrOpenDirectoryEntry.bind($root, $data)">
+                            <span data-bind="text: extensionDisplay"></span>
+                        </div>
+                        <!-- /ko -->
+                    <!-- /ko -->
+                <!-- /ko -->
+                <!-- ko 'if': selection().length > 1 -->
+                    <div class="centeredMessage">
+                        <h1>
+                            <card-stack class="selectionContainer" params="template: 'files-selected', data: selection"></card-stack>
+                            <br>
+                            <span data-bind="text: inter.trQuantity(TR('webfm.actionPanel.XItemsSelected', {
+                                one: '{0} item selected',
+                                other: '{0} items selected'
+                            }), selection().length)"></span>
+                        </h1>
+                    </div>
+                <!-- /ko -->
+                <!-- ko 'if': selection().length === 0 -->
+                    <div class="centeredMessage">
+                        <h1 data-i18n="webfm.actionPanel.NoItemsSelected">Geen items geselecteerd</h1>
+                    </div>
+                <!-- /ko -->
+            </div>
+        </div>
+    </div>
+<!-- /ko -->
+<script type="text/html" id="files-selected">
+    <div class="mime-icon mime-preview" data-bind="css: iconClass"></div>
+</script>
+</script><script id="filesBottomToolbar" type="text/html"><div class="bottom-toolbar-style one-toolbar-style one-toolbar-style--rtl">
+    <!-- ko template: 'filesBottomActionPanel' --><!-- /ko -->
+    <div class="one-toolbar-item one-toolbar-item--rtl">
+        <button class="no-border-button touch-button" data-bind="tap: $root.layout.sidebar.toggle">
+            <i class="icon icon-list"></i>
+        </button>
+    </div>
+</div>
+
+</script><script id="filesBottomActionPanel" type="text/html"><!-- ko 'with': $root.state.currentDrive -->
+    <!-- ko 'if': selection().length === 1 -->
+        <!-- ko 'with': selection()[0] -->
+            <!-- ko 'if': $data.isUserReadable -->
+            <div class="one-toolbar-item one-toolbar-item--rtl" data-bind="visible: type === 'file'">
+                <button class="no-border-button touch-button enabled" data-bind="tap: $root.openDirectoryEntry.bind($root, $data)"><i class="icon-view"></i></button>
+            </div>
+            <div class="one-toolbar-item one-toolbar-item--rtl" data-bind="visible: $data.type === 'file'">
+                <button class="no-border-button touch-button enabled" data-bind="tap: $parents[1].downloadFiles.bind($parents[1])"><i class="icon-download"></i></button>
+            </div>
+            <div class="one-toolbar-item one-toolbar-item--rtl" data-bind="visible: $data.type === 'directory'">
+                <button class="no-border-button touch-button enabled" data-bind="tap: $parents[1].downloadArchive.bind($parents[1])"><i class="icon-download"></i></button>
+            </div>
+            <!-- /ko -->
+        <!-- /ko -->
+    <!-- /ko -->
+    <!-- ko 'if': selection().length > 1 -->
+        <div class="one-toolbar-item one-toolbar-item--rtl">
+            <button class="no-border-button touch-button enabled" data-bind="tap: $parent.downloadArchive.bind($parent, selection())"><i class="icon-download"></i></button>
+        </div>
+    <!-- /ko -->
+<!-- /ko -->
+</script><script id="cardStack" type="text/html"><span class="card-stack-container" data-bind="foreach: { data: cards, beforeRemove: beforeRemove }, animate: data, css: { incremented: incremented, decremented: decremented }">
+    <span class="card-stack-card" data-bind="css: 'card-' + $data, template: { name: $parent.template, data: $parent.data()[$data] }"></span>
+</span>
+</script><script id="toolbar-component" type="text/html"><div class="toolbar-left">
+    <!-- ko template: { name: 'toolbar-button', data: back, if: back } -->
+    <!-- /ko -->
+    <!-- ko if: ko.unwrap(primaries).length -->
+    <!-- ko if: narrow() -->
+    <div class="combo-button">
+        <!-- ko template: { name: 'toolbar-button', data: firstPrimary } -->
+        <!-- /ko -->
+        <!-- if: collapsedPrimaries().length -->
+        <!-- ko with: primariesMenu -->
+        <div class="combo-separator"></div>
+        <button href="#" class="combo-ribbon" data-bind="dropdownTemplate: menu">
+            <span class="icon-caret"></span>
+        </button>
+        <!-- /ko -->
+        <!-- /ko -->
+    </div>
+    <!-- /ko -->
+    <!-- ko ifnot: narrow() -->
+    <!-- ko template: { name: 'toolbar-button', foreach: primaries } -->
+    <!-- /ko -->
+    <!-- /ko -->
+    <!-- /ko -->
+</div>
+<div class="toolbar-right">
+    <!-- ko template: { name: 'toolbar-button', foreach: secondaries } -->
+    <!-- /ko -->
+    <!-- ko with: more -->
+    <button href="#" data-bind="dropdownTemplate: menu">
+        <span data-bind="text: label"></span>
+        <span class="icon-caret"></span>
+    </button>
+    <!-- /ko -->
+</div>
+</script><script id="toolbar-button" type="text/html"><!-- ko if: menu -->
+<button data-bind="click: handler, popupTemplate: menu, css: classes">
+    <span data-bind="css: icon"></span>
+    <span data-bind="text: label, visible: !$parent.collapsed()"></span>
+</button>
+<!-- /ko -->
+<!-- ko ifnot: menu -->
+<!-- ko if: track -->
+<button href="#" data-bind="click: handler, enable: enabled, css: classes, trackClick: track">
+    <span data-bind="css: icon"></span>
+    <span data-bind="text: label, visible: !$parent.collapsed()"></span>
+</button>
+<!-- /ko -->
+<!-- ko ifnot: track -->
+<button href="#" data-bind="click: handler, enable: enabled, css: classes">
+    <span data-bind="css: icon"></span>
+    <span data-bind="text: label, visible: !$parent.collapsed()"></span>
+</button>
+<!-- /ko -->
+<!-- /ko -->
+</script><script id="toolbar-more" type="text/html"><ul class="popupDropdown toolbar-menu">
+    <!-- ko if: menu.openState -->
+    <!-- ko foreach: buttons -->
+    <!-- ko if: menu -->
+    <li class="dropdown-item toolbar-menu" data-bind="click: handler, text: label, css: icon, popupTemplate: menu"></li>
+    <!-- /ko -->
+    <!-- ko ifnot: menu -->
+    <!-- ko if: track -->
+    <li class="dropdown-item toolbar-menu" data-bind="click: handler, css: icon, text: label, trackClick: track"></li>
+    <!-- /ko -->
+    <!-- ko ifnot: track -->
+    <li class="dropdown-item toolbar-menu" data-bind="click: handler, css: icon, text: label"></li>
+    <!-- /ko -->
+    <!-- /ko -->
+    <!-- /ko -->
+    <!-- /ko -->
+</ul>
+</script><script id="splittablePane" type="text/html"><!-- ko if: split -->
+<div data-bind="splitView: splitView"></div>
+<!-- /ko -->
+<!-- ko ifnot: split -->
+    <!-- ko foreach: activePanes -->
+        <!-- ko template: $data --><!-- /ko -->
+    <!-- /ko -->
+<!-- /ko -->
+</script><script id="application" type="text/html"><div class="layout container">
+    <div class="layout top">
+        <onebar params="state: state,
+                    activeApplication: activeApplication,
+                    applications: applications,
+                    isInternalBuild: isInternalBuild,
+                    handleLogout: handleLogout,
+                    logoutText: logoutText,
+                    supportedLocaleIds: supportedLocaleIds">
+        </onebar>
+
+    </div>
+    <!-- application -->
+    <splittable-pane class="layout center appContainer" data-bind="css: {
+            'sidebar-alt-state': layout.sidebar.collapsed(),
+            'sidebar-default-state': !layout.sidebar.collapsed(),
+            animated: layout.sidebar.animated }" params="pane1: layout.listPanelData,
+            pane2: layout.contentPanelData,
+            splitView: layout.splitView,
+            split: !layout.dimensions.narrow()">
+    </splittable-pane>
+    <!-- non-deferrable dialogs, only show the first one in the list -->
+    <!-- ko 'if': currentDataSet().nonDeferrableDialogs().length -->
+        <div class="layout center dialog-panel--overlay solid" data-bind="with: $root.currentDataSet().nonDeferrableDialogs">
+            <div class="layout dialog-panel">
+                <div class="dialog-panel--centered-body" data-bind="template: {name: $data[0].templateName(), data: $data[0]}"></div>
+            </div>
+        </div>
+    <!-- /ko -->
+</div>
+</script><script id="listPanel" type="text/html"><div class="app" data-bind="with: currentDataSet, css: { 'layout center': function () { return !$root.layout.sidebar.collapsed(); } }">
+    <div class="layout top main-toolbar hasRight" data-bind="template: templatePrefix + 'Toolbar'"></div>
+    <div class="layout center list-with-toolbar">
+        <div class="layout top list-with-searchbar" data-bind="css: {'list-with-searchbar': allowSearch(), dialogBoxVisible: deferrableDialogs().length, showBottomToolbar: showBottomToolbar()}">
+            <!-- ko 'if': allowSearch() -->
+                <div class="layout top" data-bind="template: templatePrefix + 'SearchBar'"></div>
+            <!-- /ko -->
+        </div>
+        <div class="layout center mainContentPanel list-with-searchbar" data-bind="css: {dialogBoxVisible: deferrableDialogs().length, showBottomToolbar: showBottomToolbar(), dropZoneVisible: !deferrableDialogs().length},
+        style: {top : !$root.state.currentDrive() ? '0' : '35'}">
+                <div class="layout top one-toolbar-style selection-bar" data-bind="template: templatePrefix + 'DirectoryEntriesToolbar'"></div>
+                <div class="layout center" data-bind="template: templatePrefix + 'DirectoryEntries'"></div>
+            <!-- ko 'if': showBottomToolbar() -->
+                <div class="layout bottom bottom-toolbar-container" data-bind="template: templatePrefix + 'BottomToolbar'"></div>
+            <!-- /ko -->
+            <!-- ko 'if': !deferrableDialogs().length && $root.state.currentDrive() && !$root.currentDataSet().showingSearchResults() && !showingWebRoots() -->
+                    <div class="layout bottom dropzone-bottom-panel dialog-panel">
+                        <div class="drop-zone-area" tabindex="-1" data-bind="fileDropTarget: { drop: $root.upload.bind($root)},">
+                            <div class="item drop-zone-area--info">
+                                <i class="icon-attachment"></i>
+                                <span data-i18n="webfm.directoryEntries.dragAndDropFiles">Sleep bestaden hierheen of rechtstreeks naar een map.</span>
+                            </div>
+                        </div>
+                    </div>
+                <!-- /ko -->
+            <!-- ko 'if': deferrableDialogs().length -->
+                <div class="layout bottom dialog-panel" data-bind="with: deferrableDialogs">
+                    <div class="dialog-panel--horizontally-centered-body" data-bind="template: {name: $data[0].templateName(), data: $data[0]}"></div>
+                </div>
+            <!-- /ko -->
+        </div>
+    </div>
+</div>
+<!-- ko if: $root.layout.sidebar.collapsed() -->
+<div class="layout left center-overlay" data-bind="tap: $root.layout.sidebar.toggle, with: $root.currentDataSet"></div>
+<!-- /ko -->
+</script><script id="contentPanel" type="text/html"><div class="layout contentPanel" data-bind="css: layout.contentPanel.classSet()">
+    <div class="layout top one-toolbar-style">
+        <toolbar params="back: contentToolbar.backButton, primaries: contentToolbar.leftButtons, secondaries: contentToolbar.rightButtons, narrow: contentToolbar.narrow, collapsed: contentToolbar.collapsed"></toolbar>
+    </div>
+    <!-- ko 'if': currentDataSet().currentContent() !== null -->
+        <!-- ko 'with': currentDataSet().currentContent() -->
+        <div class="layout center actionPanel" data-bind="template: {name: templateName}"></div>
+        <!-- /ko -->
+    <!-- /ko -->
+    <!-- ko 'if': currentDataSet().currentContent() === null -->
+    <div class="layout center actionPanel" data-bind="template: {name: currentDataSet().templatePrefix + 'Sidebar', data: currentDataSet}"></div>
+    <!-- /ko -->
+</div>
+</script></head>
+    <body class="small-toolbar very-small-width small-width" style="">
+        <div id="loadingScreen" style="display: none;"><p class="loadingText">Bezig met laden...</p></div>
+        <div id="appletTarget"></div>
+        <div class="notification" data-bind="notification: notification" style="display: none;"></div>
+        <div class="errormsg" data-bind="errormsg: errormsg" style="display: none; top: -2px;"></div>
+        <div class="application layout" data-bind="template: { name: &#39;application&#39;, &#39;if&#39;: state.currentUser() }"><div class="layout container">
+    <div class="layout top">
+        <onebar params="state: state,
+                    activeApplication: activeApplication,
+                    applications: applications,
+                    isInternalBuild: isInternalBuild,
+                    handleLogout: handleLogout,
+                    logoutText: logoutText,
+                    supportedLocaleIds: supportedLocaleIds"><div class="OneBar" data-bind="css: { &#39;OneBar--isInternalBuild&#39;: isInternalBuild }">
+    <div class="OneBar-Logo"></div>
+    <ul class="applications" data-bind="foreach: applications"></ul>
+    <ul class="controls">
+        <li>
+            <div class="OneBar-Avatar"></div>
+            <span data-bind="text: $root.state.currentUser().displayName()">kahuan.ng@jopie.be</span>
+        </li>
+        <li>
+            <language-picker params="supportedLocaleIds: supportedLocaleIds"><div class="LanguagePicker" data-bind="click: toggleDropdown">
+    <span data-bind="text: activeDisplayName">Nederlands</span>
+    <i class="caret"></i>
+
+    <div class="dropdown closed closing" data-bind="css: { &#39;opening&#39;: dropdownOpen, &#39;closing&#39;: !dropdownOpen() }">
+        <div class="inner">
+            <ul data-bind="foreach: locales">
+                <li class="dropdown-item" data-bind="click: $parent.changeLocale, css: { &#39;active&#39;: displayName === $parent.activeDisplayName }">
+                    <span data-bind="text: displayName">Dansk</span>
+                    <i class="checkmark"></i>
+                    <span data-bind="attr: {&#39;class&#39;: &#39;flag flag-&#39; + id }" class="flag flag-da"></span>
+                </li>
+            
+                <li class="dropdown-item" data-bind="click: $parent.changeLocale, css: { &#39;active&#39;: displayName === $parent.activeDisplayName }">
+                    <span data-bind="text: displayName">Deutsch</span>
+                    <i class="checkmark"></i>
+                    <span data-bind="attr: {&#39;class&#39;: &#39;flag flag-&#39; + id }" class="flag flag-de"></span>
+                </li>
+            
+                <li class="dropdown-item" data-bind="click: $parent.changeLocale, css: { &#39;active&#39;: displayName === $parent.activeDisplayName }">
+                    <span data-bind="text: displayName">English (UK)</span>
+                    <i class="checkmark"></i>
+                    <span data-bind="attr: {&#39;class&#39;: &#39;flag flag-&#39; + id }" class="flag flag-en_gb"></span>
+                </li>
+            
+                <li class="dropdown-item" data-bind="click: $parent.changeLocale, css: { &#39;active&#39;: displayName === $parent.activeDisplayName }">
+                    <span data-bind="text: displayName">English (US)</span>
+                    <i class="checkmark"></i>
+                    <span data-bind="attr: {&#39;class&#39;: &#39;flag flag-&#39; + id }" class="flag flag-en_us"></span>
+                </li>
+            
+                <li class="dropdown-item" data-bind="click: $parent.changeLocale, css: { &#39;active&#39;: displayName === $parent.activeDisplayName }">
+                    <span data-bind="text: displayName">Español</span>
+                    <i class="checkmark"></i>
+                    <span data-bind="attr: {&#39;class&#39;: &#39;flag flag-&#39; + id }" class="flag flag-es"></span>
+                </li>
+            
+                <li class="dropdown-item" data-bind="click: $parent.changeLocale, css: { &#39;active&#39;: displayName === $parent.activeDisplayName }">
+                    <span data-bind="text: displayName">Français</span>
+                    <i class="checkmark"></i>
+                    <span data-bind="attr: {&#39;class&#39;: &#39;flag flag-&#39; + id }" class="flag flag-fr"></span>
+                </li>
+            
+                <li class="dropdown-item" data-bind="click: $parent.changeLocale, css: { &#39;active&#39;: displayName === $parent.activeDisplayName }">
+                    <span data-bind="text: displayName">Italiano</span>
+                    <i class="checkmark"></i>
+                    <span data-bind="attr: {&#39;class&#39;: &#39;flag flag-&#39; + id }" class="flag flag-it"></span>
+                </li>
+            
+                <li class="dropdown-item active" data-bind="click: $parent.changeLocale, css: { &#39;active&#39;: displayName === $parent.activeDisplayName }">
+                    <span data-bind="text: displayName">Nederlands</span>
+                    <i class="checkmark"></i>
+                    <span data-bind="attr: {&#39;class&#39;: &#39;flag flag-&#39; + id }" class="flag flag-nl"></span>
+                </li>
+            
+                <li class="dropdown-item" data-bind="click: $parent.changeLocale, css: { &#39;active&#39;: displayName === $parent.activeDisplayName }">
+                    <span data-bind="text: displayName">Norsk</span>
+                    <i class="checkmark"></i>
+                    <span data-bind="attr: {&#39;class&#39;: &#39;flag flag-&#39; + id }" class="flag flag-nb"></span>
+                </li>
+            
+                <li class="dropdown-item" data-bind="click: $parent.changeLocale, css: { &#39;active&#39;: displayName === $parent.activeDisplayName }">
+                    <span data-bind="text: displayName">Português</span>
+                    <i class="checkmark"></i>
+                    <span data-bind="attr: {&#39;class&#39;: &#39;flag flag-&#39; + id }" class="flag flag-pt"></span>
+                </li>
+            
+                <li class="dropdown-item" data-bind="click: $parent.changeLocale, css: { &#39;active&#39;: displayName === $parent.activeDisplayName }">
+                    <span data-bind="text: displayName">Svenska</span>
+                    <i class="checkmark"></i>
+                    <span data-bind="attr: {&#39;class&#39;: &#39;flag flag-&#39; + id }" class="flag flag-sv"></span>
+                </li>
+            
+                <li class="dropdown-item" data-bind="click: $parent.changeLocale, css: { &#39;active&#39;: displayName === $parent.activeDisplayName }">
+                    <span data-bind="text: displayName">Suomi</span>
+                    <i class="checkmark"></i>
+                    <span data-bind="attr: {&#39;class&#39;: &#39;flag flag-&#39; + id }" class="flag flag-fi"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</language-picker>
+        </li>
+        <li><span class="OneBar-Link" data-bind="click: handleLogout, text: logoutText">Uitloggen</span></li>
+    </ul>
+</div>
+</onebar>
+
+    </div>
+    <!-- application -->
+    <splittable-pane class="layout center appContainer sidebar-default-state" data-bind="css: {
+            &#39;sidebar-alt-state&#39;: layout.sidebar.collapsed(),
+            &#39;sidebar-default-state&#39;: !layout.sidebar.collapsed(),
+            animated: layout.sidebar.animated }" params="pane1: layout.listPanelData,
+            pane2: layout.contentPanelData,
+            splitView: layout.splitView,
+            split: !layout.dimensions.narrow()"><!-- ko if: split -->
+<div data-bind="splitView: splitView" class="layout split-view vertical"><div class="panel1" style="inset: 0px 342px 0px 0px; width: auto;"><div class="app layout center" data-bind="with: currentDataSet, css: { &#39;layout center&#39;: function () { return !$root.layout.sidebar.collapsed(); } }">
+    <div class="layout top main-toolbar hasRight" data-bind="template: templatePrefix + &#39;Toolbar&#39;"><div class="layout main-toolbar one-toolbar-style">
+    <div class="toolbar-left">
+        <div class="one-toolbar-item--primary">
+            <div class="one-button-style--primary one-upload-files" data-bind="event: {mouseover: function($data, event){ $root.disableTooltip($data, event) }}, activateFileInput: {&#39;handler&#39;: $root.upload.bind($root), &#39;title&#39;: false, &#39;multiple&#39;: $root.isMultipleUploadSupported(), &#39;disabled&#39;: !$root.canAddDirectoryEntry()}, css: {&#39;disabled&#39;: !$root.canAddDirectoryEntry()}" style="position: relative; overflow: hidden;">
+                <span class="icon icon-upload-white upload-button-icon"></span>
+                <span class="upload-button-label one-button-style--label" data-i18n="webfm.toolbar.Upload">Uploaden</span>
+            <input type="file" multiple="multiple" style="position: absolute; top: 0px; right: 0px; margin: 0px; opacity: 0; transform: translate(-300px, 0px) scale(3); font-size: 23px; direction: ltr; height: auto; width: auto; cursor: pointer;" data-title=" "></div><!--
+            --><div class="one-button-separator--primary" data-bind="visible: $root.canAddDirectoryEntry" style=""></div><!--
+            --><button class="one-button-style--primary dropdown-anchor conjoined-left" data-i18n="attr: {&#39;data-title&#39;: &#39;webfm.toolbar.Create&#39;}" data-title="Aanmaken" data-bind="dropdownTemplate: { template: &#39;createEntryMenu&#39;, openState: $root.toolbar.newDirectoryEntry, positioning: { horizontal: &#39;inside-right&#39; } }, visible: $root.canAddDirectoryEntry" style="">
+                <i class="icon-dropdown-white"></i>
+            </button>
+            <script type="text/html" id="createEntryMenu">
+                <ul class="popupDropdown primary-menu" data-bind="with: $root.state.currentDirectoryEntry">
+                    <li class="dropdown-item" data-bind="click: $root.newFolder.bind($root, $data)"><span data-i18n="webfm.toolbar.NewFolder">Nieuwe map</span></li>
+                    <li class="dropdown-item" data-bind="click: $root.newFile.bind($root, $data, '.html')"><span data-i18n="webfm.toolbar.NewHtmlFile">Nieuw HTML-bestand</span></li>
+                    <li class="dropdown-item" data-bind="click: $root.newFile.bind($root, $data, '.txt')"><span data-i18n="webfm.toolbar.NewTxtFile">Nieuw tekstbestand</span></li>
+                    <li class="dropdown-item" data-bind="click: $root.newFile.bind($root, $data, '')"><span data-i18n="webfm.toolbar.NewEmptyFile">Nieuw ander bestand</span></li>
+                    <!-- ko if: $root.state.featureFlags.directorySecurity -->
+                    <li class="dropdown-item" data-bind="click: $root.createDirectorySecurity.bind($root, $data, true)"><span data-i18n="webfm.toolbar.SecureDirectory">Beveiligde map</span></li>
+                    <!-- /ko -->
+                </ul>
+            </script>
+        </div>
+    </div>
+    <div class="navigationBar disable-on-small-screen" data-bind="template: &#39;filesNavBar&#39;"><div class="breadCrumbs">
+    <ul>
+       <!-- ko foreach: $root.state.currentBreadCrumbs -->
+            <li class="breadCrumb drop-zone" data-bind="css: {active: $data === $root.state.currentDirectoryEntry()}, click: $root.goToDirectory.bind($root, $data, null), dropzone: {name: &#39;directoryEntry&#39;, dragEnter: $root.dragDirectoryEntriesEnter.bind($root), drop: $root.dropDirectoryEntries.bind($root)}">
+                <span data-bind="text: displayName">ka-huan-ng.net</span>
+            </li>
+            <li class="separator" data-bind="separator: $root.state.currentBreadCrumbs" data-i18n="" style="display: block;">&nbsp;</li>
+        
+            <li class="breadCrumb drop-zone" data-bind="css: {active: $data === $root.state.currentDirectoryEntry()}, click: $root.goToDirectory.bind($root, $data, null), dropzone: {name: &#39;directoryEntry&#39;, dragEnter: $root.dragDirectoryEntriesEnter.bind($root), drop: $root.dropDirectoryEntries.bind($root)}">
+                <span data-bind="text: displayName">php</span>
+            </li>
+            <li class="separator" data-bind="separator: $root.state.currentBreadCrumbs" data-i18n="">&nbsp;</li>
+        
+            <li class="breadCrumb active drop-zone" data-bind="css: {active: $data === $root.state.currentDirectoryEntry()}, click: $root.goToDirectory.bind($root, $data, null), dropzone: {name: &#39;directoryEntry&#39;, dragEnter: $root.dragDirectoryEntriesEnter.bind($root), drop: $root.dropDirectoryEntries.bind($root)}">
+                <span data-bind="text: displayName">php_oefeningen</span>
+            </li>
+            <li class="separator" data-bind="separator: $root.state.currentBreadCrumbs" data-i18n="" style="display: none;">&nbsp;</li>
+        <!-- /ko -->
+    </ul>
+    <div class="breadCrumbShadow"></div>
+</div>
+</div>
+</div>
+</div>
+    <div class="layout center list-with-toolbar">
+        <div class="layout top list-with-searchbar" data-bind="css: {&#39;list-with-searchbar&#39;: allowSearch(), dialogBoxVisible: deferrableDialogs().length, showBottomToolbar: showBottomToolbar()}">
+            <!-- ko 'if': allowSearch() -->
+                <div class="layout top" data-bind="template: templatePrefix + &#39;SearchBar&#39;"><div class="one-toolbar-style search-bar">
+    <input type="text" class="icon-search search-bar--input one-search-field" data-i18n="attr: { placeholder: &#39;webfm.Search&#39;}" placeholder="Zoeken" data-bind="
+        value: editedSearchString,
+        onKeyUp: {&#39;enter&#39;: commitSearch.bind($data), &#39;esc&#39;: cancelSearch.bind($data), &#39;down&#39;: $parent.focusDirectoryEntries.bind($parent)}" tabindex="1">
+    <button data-bind="visible: showingSearchResults, tap: cancelSearch.bind($data)" class="no-border-button icon-remove" style="display: none;"></button>
+</div>
+</div>
+            <!-- /ko -->
+        </div>
+        <div class="layout center mainContentPanel list-with-searchbar dropZoneVisible" data-bind="css: {dialogBoxVisible: deferrableDialogs().length, showBottomToolbar: showBottomToolbar(), dropZoneVisible: !deferrableDialogs().length},
+        style: {top : !$root.state.currentDrive() ? &#39;0&#39; : &#39;35&#39;}">
+                <div class="layout top one-toolbar-style selection-bar" data-bind="template: templatePrefix + &#39;DirectoryEntriesToolbar&#39;"><!-- ko 'if': $root.state.currentDirectoryEntry() -->
+    <!-- ko 'if': $root.state.currentDirectoryEntry().state.loadingData.done() &&  !($root.state.currentDirectoryEntry().parents() && $root.state.currentDirectoryEntry().parents().length === 1 && $root.state.currentDirectoryEntry().parents()[0].isMultipleWebRoot()) -->
+    <div class="dropdown-toggle selection-bar--item selection-bar--select-menu dropdown" data-bind="dropdownTemplate: {template: &#39;selectionMenu&#39;, openState: toolbar.select }" data-i18n="attr: {&#39;data-title&#39;: &#39;webfm.toolbar.SetSelection&#39;}" data-title="Specificeer keuze" data-tooltip-placement="right"><i class="icon-checkbox checked"></i><b class="caret"></b></div>
+    <!-- /ko -->
+    <script id="selectionMenu" type="text/html">
+        <ul class="popupDropdown">
+            <li class="dropdown-item" data-bind="click: selectNone"><span data-i18n="webfm.toolbar.SelectNone">Niets selecteren</span></li>
+            <li class="dropdown-item" data-bind="click: selectAll"><span data-i18n="webfm.toolbar.SelectAll">Alles selecteren</span></li>
+        </ul>
+    </script>
+
+    <div class="selection-bar--item selection-bar--view-buttons one-toolbar-item--rtl one-concatenate-buttons disable-on-small-screen">
+        <button class="one-button-style--toolbar spacer-right" data-i18n="attr: {&#39;data-title&#39;: &#39;webfm.toolbar.Refresh&#39;}" data-title="Verversen" data-bind="visible: !$root.state.currentDrive() || ($root.state.currentDirectoryEntry() &amp;&amp; !$root.state.currentDirectoryEntry().state.loadingData.busy()), click: $root.refresh.bind($root)" style=""><i class="icon-refresh icon-large"></i></button><!--
+        --><!-- ko foreach: views --><button class="one-button-style--toolbar active" data-bind="click: $parent.setView.bind($parent, $data), css: {active: $parent.currentView() === $data}, attr: {&#39;data-title&#39;: displayName}" data-title="Lijstweergave"><span data-bind="attr: {&#39;class&#39;: icon}" class="icon-list"></span></button><button class="one-button-style--toolbar" data-bind="click: $parent.setView.bind($parent, $data), css: {active: $parent.currentView() === $data}, attr: {&#39;data-title&#39;: displayName}" data-title="Galerijweergave"><span data-bind="attr: {&#39;class&#39;: icon}" class="icon-gallery"></span></button><!-- /ko -->
+    </div>
+
+    <!-- ko 'if': $root.state.currentDirectoryEntry().state.loadingData.done() -->
+    <div class="dropdown-toggle selection-bar--item selection-bar--sort-menu" data-bind="dropdownTemplate: { template: &#39;sortMenu&#39;, openState: toolbar.sort, positioning: { horizontal: &#39;inside-right&#39; } }" data-i18n="attr: { &#39;data-title&#39;: &#39;webfm.toolbar.SortDirectoryEntries&#39;}" data-title="Items sorteren">
+        <span data-bind="visible: sortKey() === &#39;basename&#39;">
+            <span data-i18n="webfm.toolbar.SortByColon">Sorteren op:</span> <span data-i18n="webfm.toolbar.Name">Naam</span>
+        </span>
+        <span data-bind="visible: sortKey() === &#39;modifiedDate&#39;" style="display: none;">
+            <span data-i18n="webfm.toolbar.SortByColon">Sorteren op:</span> <span data-i18n="webfm.toolbar.Date">Datum</span>
+        </span>
+        <span data-bind="visible: sortKey() === &#39;size&#39;" style="display: none;">
+            <span data-i18n="webfm.toolbar.SortByColon">Sorteren op:</span> <span data-i18n="webfm.toolbar.Size">Grootte</span>
+        </span>
+        <b class="caret"></b>
+    </div>
+    <!-- /ko -->
+
+    <script id="sortMenu" type="text/html">
+        <ul class="popupDropdown">
+            <li class="dropdown-item" data-bind="click: setSortKey.bind($data, 'basename')">
+                <span data-i18n="webfm.toolbar.SortByColon">Sorteren op:</span> <span data-i18n="webfm.toolbar.Name">Naam</span><span data-bind="visible: sortKey() === 'basename'"> <i class="icon-checkmark"></i></span>
+            </li>
+            <li class="dropdown-item" data-bind="click: setSortKey.bind($data, 'modifiedDate')">
+                <span data-i18n="webfm.toolbar.SortByColon">Sorteren op:</span> <span data-i18n="webfm.toolbar.Date">Datum</span><span data-bind="visible: sortKey() === 'modifiedDate'"> <i class="icon-checkmark"></i></span>
+            </li>
+            <li class="dropdown-item" data-bind="click: setSortKey.bind($data, 'size')">
+                <span data-i18n="webfm.toolbar.SortByColon">Sorteren op:</span> <span data-i18n="webfm.toolbar.Size">Grootte</span><span data-bind="visible: sortKey() === 'size'"> <i class="icon-checkmark"></i></span>
+            </li>
+            <li class="dropdown-divider"></li>
+            <li class="dropdown-item" data-bind="click: setSortDirection.bind($data, 1)"><span data-i18n="webfm.toolbar.SortAscending">Oplopend</span><span data-bind="visible: sortDirection() === 1"> <i class="icon-checkmark"></i></span></li>
+            <li class="dropdown-item" data-bind="click: setSortDirection.bind($data, -1)"><span data-i18n="webfm.toolbar.SortDescending">Aflopend</span><span data-bind="visible: sortDirection() === -1"> <i class="icon-checkmark"></i></span></li>
+        </ul>
+    </script>
+<!-- /ko -->
+</div>
+                <div class="layout center" data-bind="template: templatePrefix + &#39;DirectoryEntries&#39;"><script type="text/html" id="directory-entry-drag-element-template">
+    <div class="drag-label" data-bind="text: inter.trQuantity(TR('webfm.actions.moveDirectoryEntries.MovingNItems', {one: 'Moving {0} item', other: 'Moving {0} items'}), $root.state.currentDrive().selection().length)"></div>
+</script>
+<div data-bind="template: {&#39;if&#39;: $root.state.currentDrive() &amp;&amp; $root.state.hasCurrentDirectoryEntry(), data: $root.state.currentDrive()}">
+    <div data-bind="template: {name: $root.currentDataSet().viewTemplateName, data: $root.currentDataSet}"><div class="layout top" data-bind="fileDropTarget: { drop: $root.upload.bind($root)}">
+    <!-- ko 'if': !$root.currentDataSet().showingSearchResults() && parentDirectory() -->
+    <div class="directory-entries-list" data-bind="with: parentDirectory">
+        <div class="list-item directory-entries--item directory-entries-list--item drop-zone" data-bind="
+            event: {click: $root.openDirectoryEntry.bind($root, $data)}, clickBubble: false,
+            css: { focused: focused, busy: isBusy },
+            dropzone: { name: &#39;directoryEntry&#39;,
+                dragEnter: $root.dragDirectoryEntriesEnter.bind($root),
+                drop: $root.dropDirectoryEntries.bind($root)
+            }">
+                <div class="layout left">
+                    <div class="folderUp-icon mime-small mime-icon mime-httpd mime-folderUp">
+                    </div>
+                </div>
+                <div class="focus-indicator"></div>
+                <div class="layout movelink-one-directoryUp">
+                    <a class="directory-up" unselectable="on" data-i18n="webfm.directoryEntries.upOneDirectory">Een map hoger</a>
+                </div>
+        <div class="bottom"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+    <!-- ko 'if': !$root.currentDataSet().showingSearchResults() && !parentDirectory() --><!-- /ko -->
+</div>
+
+<!-- ko 'if': !showingWebRoots() -->  
+    <div class="layout center directory-entries gridViewScrollArea directory-entries--moveDown" data-bind="css: {&#39;directory-entries--moveDown&#39;: !$root.currentDataSet().showingSearchResults()}, fileDropTarget: { drop: $root.upload.bind($root)}">
+        <div class="directory-entries-list selectionArea knockout-list" tabindex="1" data-bind="
+            list: { data: listItems, visibleIndex: focusedIndex, scrollable: &#39;.gridViewScrollArea&#39; },
+            selection: { data: listItems, selection: $parent.selection, anchor: $parent.anchor, focused: $parent.focusedItem, toggleClass: &#39;checkbutton&#39; },
+            scrollableOnDragOver: &#39;directoryEntry&#39;,
+            onKeyUp: {
+                &#39;enter&#39;: $root.editOrOpenDirectoryEntry.bind($root, $parent.focusedItem()),
+                &#39;backspace&#39;: $root.goToParentDirectory.bind($root),
+                &#39;del&#39;: $root.deleteDirectoryEntries.bind($root, $parent.selection())
+            },
+            afterRender: $root.setupDirectoryEntries.bind($root)"><div class="stretcher" style="height: 147px;"></div><div class="tile" style="top: 0px;">
+            <div class="list-item directory-entries--item directory-entries-list--item draggable drop-zone" data-bind="
+            css: { selected: selected, focused: focused, dragging: dragging, busy: isBusy, flash: flash, storingOnServer: state.storingOnServer.busy },
+            dragzone: { name: &#39;directoryEntry&#39;, element: &#39;directory-entry-drag-element-template&#39;,
+                dragStart: $root.dragDirectoryEntriesStart.bind($root),
+                dragEnd: $root.dragDirectoryEntriesEnd.bind($root)
+            },
+            dropzone: { name: &#39;directoryEntry&#39;,
+                dragEnter: $root.dragDirectoryEntriesEnter.bind($root),
+                drop: $root.dropDirectoryEntries.bind($root)
+            },
+            fileDropTarget: { drop: $root.upload.bind($root, $data)},
+            eventCanceller: {cancel: &#39;input,button&#39;}">
+                <!-- ko 'if': canShowThumbnail() --><!-- /ko -->
+                    <div class="layout left">
+                    <!-- ko 'if': canShowThumbnail() --><!-- /ko -->
+                    <!-- ko 'if': !canShowThumbnail() -->
+                        <div data-bind="attr: { &#39;class&#39;: &#39;directory-entry-icon mime-small &#39; + iconClass() }" class="directory-entry-icon mime-small mime-icon mime-source">
+                            <span data-bind="text: extensionDisplay" unselectable="on">php</span>
+                        </div>
+                    <!-- /ko -->
+                    </div>
+                <div class="focus-indicator"></div>
+                <div class="draghandle" data-i18n="attr: {&#39;data-title&#39;: &#39;webfm.directoryEntries.DragToFolder&#39;}" data-title="Sleep naar map" data-tooltip-placement="right"></div>
+                <button type="button" class="checkbutton" tabindex="-1" autocomplete="off" value="" hidefocus="true" role="checkbox">
+                    <i class="check" unselectable="on"></i>
+                </button>
+                <div class="layout center">
+                    <div data-bind="&#39;if&#39;: !state.renaming.busy()">
+                        <a class="displayName" data-bind="text: displayName, event: {click: $root.editOrOpenDirectoryEntry.bind($root, $data)}, clickBubble: false" unselectable="on">extra_oefening.php</a>
+                        <div data-bind="text: displaySize" class="size" unselectable="on">1,2&nbsp;KB</div>
+                    </div>
+                    <div class="renameContainer" data-bind="&#39;if&#39;: state.renaming.busy"></div>
+                </div>
+                <div class="layout right">
+                    <span data-bind="formatDate: {value: modifiedDate, formatId: &#39;Hm/shortDate&#39;, tooltipFormatId: &#39;shortDateTime&#39;}" class="date" unselectable="on" data-title="05-04-2024 14:35">05-04-2024</span>
+                </div>
+                <!-- ko 'if': indicateProgress --><!-- /ko -->
+                <div class="bottom"></div>
+            </div>
+        </div><div class="tile" style="top: 49px;">
+            <div class="list-item directory-entries--item directory-entries-list--item draggable drop-zone" data-bind="
+            css: { selected: selected, focused: focused, dragging: dragging, busy: isBusy, flash: flash, storingOnServer: state.storingOnServer.busy },
+            dragzone: { name: &#39;directoryEntry&#39;, element: &#39;directory-entry-drag-element-template&#39;,
+                dragStart: $root.dragDirectoryEntriesStart.bind($root),
+                dragEnd: $root.dragDirectoryEntriesEnd.bind($root)
+            },
+            dropzone: { name: &#39;directoryEntry&#39;,
+                dragEnter: $root.dragDirectoryEntriesEnter.bind($root),
+                drop: $root.dropDirectoryEntries.bind($root)
+            },
+            fileDropTarget: { drop: $root.upload.bind($root, $data)},
+            eventCanceller: {cancel: &#39;input,button&#39;}">
+                <!-- ko 'if': canShowThumbnail() --><!-- /ko -->
+                    <div class="layout left">
+                    <!-- ko 'if': canShowThumbnail() --><!-- /ko -->
+                    <!-- ko 'if': !canShowThumbnail() -->
+                        <div data-bind="attr: { &#39;class&#39;: &#39;directory-entry-icon mime-small &#39; + iconClass() }" class="directory-entry-icon mime-small mime-icon mime-source">
+                            <span data-bind="text: extensionDisplay" unselectable="on">php</span>
+                        </div>
+                    <!-- /ko -->
+                    </div>
+                <div class="focus-indicator"></div>
+                <div class="draghandle" data-i18n="attr: {&#39;data-title&#39;: &#39;webfm.directoryEntries.DragToFolder&#39;}" data-title="Sleep naar map" data-tooltip-placement="right"></div>
+                <button type="button" class="checkbutton" tabindex="-1" autocomplete="off" value="" hidefocus="true" role="checkbox">
+                    <i class="check" unselectable="on"></i>
+                </button>
+                <div class="layout center">
+                    <div data-bind="&#39;if&#39;: !state.renaming.busy()">
+                        <a class="displayName" data-bind="text: displayName, event: {click: $root.editOrOpenDirectoryEntry.bind($root, $data)}, clickBubble: false" unselectable="on">extra_oefening1 (van Ka-Huan).php</a>
+                        <div data-bind="text: displaySize" class="size" unselectable="on">1,5&nbsp;KB</div>
+                    </div>
+                    <div class="renameContainer" data-bind="&#39;if&#39;: state.renaming.busy"></div>
+                </div>
+                <div class="layout right">
+                    <span data-bind="formatDate: {value: modifiedDate, formatId: &#39;Hm/shortDate&#39;, tooltipFormatId: &#39;shortDateTime&#39;}" class="date" unselectable="on" data-title="15-04-2024 21:19">15-04-2024</span>
+                </div>
+                <!-- ko 'if': indicateProgress --><!-- /ko -->
+                <div class="bottom"></div>
+            </div>
+        </div><div class="tile" style="top: 98px;">
+            <div class="list-item directory-entries--item directory-entries-list--item focused draggable drop-zone" data-bind="
+            css: { selected: selected, focused: focused, dragging: dragging, busy: isBusy, flash: flash, storingOnServer: state.storingOnServer.busy },
+            dragzone: { name: &#39;directoryEntry&#39;, element: &#39;directory-entry-drag-element-template&#39;,
+                dragStart: $root.dragDirectoryEntriesStart.bind($root),
+                dragEnd: $root.dragDirectoryEntriesEnd.bind($root)
+            },
+            dropzone: { name: &#39;directoryEntry&#39;,
+                dragEnter: $root.dragDirectoryEntriesEnter.bind($root),
+                drop: $root.dropDirectoryEntries.bind($root)
+            },
+            fileDropTarget: { drop: $root.upload.bind($root, $data)},
+            eventCanceller: {cancel: &#39;input,button&#39;}">
+                <!-- ko 'if': canShowThumbnail() --><!-- /ko -->
+                    <div class="layout left">
+                    <!-- ko 'if': canShowThumbnail() --><!-- /ko -->
+                    <!-- ko 'if': !canShowThumbnail() -->
+                        <div data-bind="attr: { &#39;class&#39;: &#39;directory-entry-icon mime-small &#39; + iconClass() }" class="directory-entry-icon mime-small mime-icon mime-source">
+                            <span data-bind="text: extensionDisplay" unselectable="on">php</span>
+                        </div>
+                    <!-- /ko -->
+                    </div>
+                <div class="focus-indicator"></div>
+                <div class="draghandle" data-i18n="attr: {&#39;data-title&#39;: &#39;webfm.directoryEntries.DragToFolder&#39;}" data-title="Sleep naar map" data-tooltip-placement="right"></div>
+                <button type="button" class="checkbutton" tabindex="-1" autocomplete="off" value="" hidefocus="true" role="checkbox">
+                    <i class="check" unselectable="on"></i>
+                </button>
+                <div class="layout center">
+                    <div data-bind="&#39;if&#39;: !state.renaming.busy()">
+                        <a class="displayName" data-bind="text: displayName, event: {click: $root.editOrOpenDirectoryEntry.bind($root, $data)}, clickBubble: false" unselectable="on">extra_oefening2.php</a>
+                        <div data-bind="text: displaySize" class="size" unselectable="on">2,0&nbsp;KB</div>
+                    </div>
+                    <div class="renameContainer" data-bind="&#39;if&#39;: state.renaming.busy"></div>
+                </div>
+                <div class="layout right">
+                    <span data-bind="formatDate: {value: modifiedDate, formatId: &#39;Hm/shortDate&#39;, tooltipFormatId: &#39;shortDateTime&#39;}" class="date" unselectable="on" data-title="01-06-2024 21:42">21:42</span>
+                </div>
+                <!-- ko 'if': indicateProgress --><!-- /ko -->
+                <div class="bottom"></div>
+            </div>
+        </div></div>
+    </div>
+<!-- /ko -->
+
+
+<!-- ko 'if': showingWebRoots() --><!-- /ko --></div>
+    <!-- ko 'with': $root.currentDataSet -->
+        <!-- ko 'if': listItems().length === 0 --><!-- /ko -->
+        <div class="layout center solid loading-overlay" data-bind="visible: showLoadingOverlay" style="display: none;">
+            <!-- ko 'if': showLoadingIndicator() --><!-- /ko -->
+        </div>
+    <!-- /ko -->
+</div>
+</div>
+            <!-- ko 'if': showBottomToolbar() --><!-- /ko -->
+            <!-- ko 'if': !deferrableDialogs().length && $root.state.currentDrive() && !$root.currentDataSet().showingSearchResults() && !showingWebRoots() -->
+                    <div class="layout bottom dropzone-bottom-panel dialog-panel">
+                        <div class="drop-zone-area" tabindex="-1" data-bind="fileDropTarget: { drop: $root.upload.bind($root)},">
+                            <div class="item drop-zone-area--info">
+                                <i class="icon-attachment"></i>
+                                <span data-i18n="webfm.directoryEntries.dragAndDropFiles">Sleep bestaden hierheen of rechtstreeks naar een map.</span>
+                            </div>
+                        </div>
+                    </div>
+                <!-- /ko -->
+            <!-- ko 'if': deferrableDialogs().length --><!-- /ko -->
+        </div>
+    </div>
+</div>
+<!-- ko if: $root.layout.sidebar.collapsed() --><!-- /ko -->
+</div><div unselectable="on" class="resize-handle" style="inset: 0px 331px 0px auto;"></div><div class="panel2" style="inset: 0px 0px 0px auto; width: 342px;"><div class="layout contentPanel right" data-bind="css: layout.contentPanel.classSet()">
+    <div class="layout top one-toolbar-style">
+        <toolbar params="back: contentToolbar.backButton, primaries: contentToolbar.leftButtons, secondaries: contentToolbar.rightButtons, narrow: contentToolbar.narrow, collapsed: contentToolbar.collapsed"><div class="toolbar-left">
+    <!-- ko template: { name: 'toolbar-button', data: back, if: back } --><!-- /ko -->
+    <!-- ko if: ko.unwrap(primaries).length --><!-- /ko -->
+</div>
+<div class="toolbar-right">
+    <!-- ko template: { name: 'toolbar-button', foreach: secondaries } --><!-- /ko -->
+    <!-- ko with: more --><!-- /ko -->
+</div>
+</toolbar>
+    </div>
+    <!-- ko 'if': currentDataSet().currentContent() !== null --><!-- /ko -->
+    <!-- ko 'if': currentDataSet().currentContent() === null -->
+    <div class="layout center actionPanel" data-bind="template: {name: currentDataSet().templatePrefix + &#39;Sidebar&#39;, data: currentDataSet}"><!-- ko 'with': $root.state.currentDrive -->
+    <div class="tile">
+        <div class="tileContent">
+            <div class="itemHeader">
+                <!-- ko 'if': selection().length === 1 --><!-- /ko -->
+                <!-- ko 'if': selection().length !== 1 -->
+                    <!-- ko 'with': currentDirectoryEntry() -->
+                        <div class="layout left">
+                            <div data-bind="css: iconClass() + &#39; header-icon mime-actionPanel&#39;" class="mime-icon mime-httpd mime-unix-directory header-icon mime-actionPanel"></div>
+                        </div>
+                        <div class="layout center">
+                            <h1 data-bind="text: displayName">php_oefeningen</h1>
+                            <h3><!--
+                                --><span data-bind="text: $root.currentDataSet().search() &amp;&amp; $root.currentDataSet().search().isReady() ?
+                                    inter.trQuantity(TR(&#39;webfm.actionPanel.XItems&#39;, {
+                                        one: &#39;{0} item&#39;,
+                                        other: &#39;{0} items&#39;
+                                    }), $root.currentDataSet().listItems().length) :
+                                    &#39;&#39;">3 items</span><!--
+                            --></h3>
+                        </div>
+                    <!-- /ko -->
+                <!-- /ko -->
+            </div>
+            <div class="thumbContainer disable-on-small-screen">
+                <!-- ko 'if': selection().length === 1 --><!-- /ko -->
+                <!-- ko 'if': selection().length > 1 --><!-- /ko -->
+                <!-- ko 'if': selection().length === 0 -->
+                    <div class="centeredMessage">
+                        <h1 data-i18n="webfm.actionPanel.NoItemsSelected">Geen items geselecteerd</h1>
+                    </div>
+                <!-- /ko -->
+            </div>
+        </div>
+    </div>
+<!-- /ko -->
+<script type="text/html" id="files-selected">
+    <div class="mime-icon mime-preview" data-bind="css: iconClass"></div>
+</script>
+</div>
+    <!-- /ko -->
+</div>
+</div></div>
+<!-- /ko -->
+<!-- ko ifnot: split --><!-- /ko -->
+</splittable-pane>
+    <!-- non-deferrable dialogs, only show the first one in the list -->
+    <!-- ko 'if': currentDataSet().nonDeferrableDialogs().length --><!-- /ko -->
+</div>
+</div>
+        <noscript>
+            <meta http-equiv="refresh" content="0;url=/unsupported">
+        </noscript>
+    <script type="text/javascript" src="./one.com File Manager_files/bundle.beforeStart.js.download"></script><script type="text/javascript" src="./one.com File Manager_files/bundle.webfm.js.download"></script>
+
+</body></html>

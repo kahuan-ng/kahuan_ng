@@ -1,0 +1,27 @@
+/* eigen klassen */
+.ww-bar {
+	height: 43px; /* de hoogte van de rode balk; */
+	overflow: initial; /* zorgt ervoor dat het logo uit de balk kan komen */
+}
+
+.ww-bar-img {
+	height: 90px; /* de hoogte van het logo in de rode balk */
+	cursor: pointer; /* bij hoveren boven logo wordt cursor een pointer */
+}
+
+.ww-image {
+	width: 100%; /* de afbeelding op de homepage vullen het vak volledig */
+}
+/* w3.css klassen aangepast */
+.w3-sidebar {
+	right: 0; /* de sidebar, op kleine schermen, verschijnt rechts */
+	z-index:5; /* en mag door niets overlapt worden */
+}
+
+.w3-overlay {
+	cursor: pointer; /* bij hoveren boven w3-overlay wordt cursor een pointer */
+}
+
+* {
+    font-family: Verdana, sans-serif;
+}

@@ -1,0 +1,41 @@
+.vierkant {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.rechthoek {
+    width: 250px;
+    height: 150px;
+    display:inline-block;
+    margin: 5px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.rood {
+    background-color: red;
+}
+
+.blauw {
+    background-color: blue;
+}
+
+.groen {
+    background-color: green;
+}
+
+.geel {
+    background-color: yellow;
+}
+
+.rand {
+    border: 1px solid black;
+}
+
+.relative {
+    position: relative;
+}

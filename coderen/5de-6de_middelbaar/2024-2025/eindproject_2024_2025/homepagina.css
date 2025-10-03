@@ -1,0 +1,9 @@
+.content-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tekst-container {
+    max-width: 80%; /* Of een percentage naar wens */
+    margin: 0 auto; /* Zorgt ervoor dat het in het midden van de pagina wordt uitgelijnd */
+}

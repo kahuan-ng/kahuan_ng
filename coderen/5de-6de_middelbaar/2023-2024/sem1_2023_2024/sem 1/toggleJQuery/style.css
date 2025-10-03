@@ -1,0 +1,15 @@
+table {
+    padding-left: 14%;
+}
+td {
+    height: 100px;
+    width: 100px;
+}
+
+.rood {
+    background-color: red;
+}
+
+.blauw {
+    background-color: blue;
+}

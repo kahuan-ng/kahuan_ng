@@ -1,0 +1,11 @@
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.rood {
+    background-color: red;
+}
+.blauw {
+    background-color: blue;
+}

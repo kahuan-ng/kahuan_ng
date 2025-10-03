@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        body {
+            background-color: lightblue;
+            }
+                
+            p.one {
+                color: green;
+                border-style: dotted;
+            }
+            
+            p.two {
+                border-style: groove ;
+                border-width: 25px;
+                border-color: blue yellow green black;
+            }   
+            p.three { 
+                border-style: solid;
+                border-width: medium;
+                 border-color: yellow;
+            }
+            p.fourpointone {
+                border-top-style: dotted;
+                border-right-style: outset;
+                border-bottom-style: inset;
+                border-left-style: ridge;
+            }
+            p.fourpointtwo {
+                border-style: inset outset none hidden;
+            }
+            p.fivepointone {
+                 border-left: thick groove blue
+            }
+            p.sixpointone {
+                border: 5px solid purple;
+                border-radius: 8px;
+            }
+            p.sixpointtwo {
+                border-right: 7px outset orange;
+                border-radius: 16px;
+            }
+            div {
+                 border: 1px solid black;
+                margin: 25px 50px 75px;
+                background-color: lightblue;
+                margin: auto;
+            }
+            p.inheritleft {
+                margin-left: inherit;
+            }
+                
+    </style>
+    </head>
+
+    <body>
+        <h1>CSS borders</h1>
+            <h2>Lesson 1 Border </h2>
+                <p class="one">What do you mean brother</p>
+                
+            <h2>Lesson two:  Border Witdh</h2>
+                <p class="two">Border width using pixel measurements.</p>
+                
+            <h2>Lesson 3 : Border color</h2>
+                <p class="three">Border width using non- specific measurments</p>
+            <h2>Lesson 4: Border sides</h2>
+                <p class="fourpointone">Using the coodinations wihtin  the property</p>
+                <p class="fourpointtwo">Setting a border within the values</p>
+            <h2>Lesson 5: Border shorthand property</h2>
+                <p class="fivepointone">Shorthand property test</p>
+            <h2>Lesson 6: Round borders</h2>
+                <p class="sixpointone">Round border</p>
+                <p class="sixpointtwo">Rounding border to one specific side</p>
+                        
+        <h1>Margins</h1>
+            <div>Yes. <p class="inheritleft">Inherit left</p></div>
+    </body>
+</html>
